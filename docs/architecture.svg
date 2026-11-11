@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1150" viewBox="0 0 1800 1150">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94A3B8"/></marker></defs>
+<rect width="1800" height="1150" fill="#FFFFFF"/>
+<text x="60" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#0F172A" text-anchor="start" >Answer Engine for Engineering Documents</text>
+<text x="60" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#64748B" text-anchor="start" >Everything runs locally except the orange LLM calls. Every piece keeps its document and page, so answers can cite them.</text>
+<rect x="1020" y="44" width="18" height="14" rx="3" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="1046" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >open source, runs locally</text>
+<rect x="1237.0" y="44" width="18" height="14" rx="3" fill="#FFF7ED" stroke="#F97316" stroke-width="1.5"/>
+<text x="1263.0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >hosted LLM call (gpt-5-nano)</text>
+<rect x="1473.8" y="44" width="18" height="14" rx="3" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="1499.8" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >stored files / data</text>
+<rect x="1651.1999999999998" y="44" width="18" height="14" rx="3" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+<text x="1677.1999999999998" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >final output</text>
+<circle cx="1031" cy="78" r="11" fill="#7C3AED"/>
+<text x="1031" y="82.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >E</text>
+<text x="1048" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#64748B" text-anchor="start" >/</text>
+<circle cx="1066" cy="78" r="11" fill="#7C3AED"/>
+<text x="1066" y="82.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >R</text>
+<text x="1081" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#64748B" text-anchor="start" >/</text>
+<circle cx="1099" cy="78" r="11" fill="#7C3AED"/>
+<text x="1099" y="82.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >A</text>
+<text x="1118" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >stage scored by the evaluation (Extraction / Retrieval / Answers)</text>
+<rect x="40" y="110" width="1720" height="320" rx="16" fill="#FBFCFE" stroke="#E2E8F0" stroke-width="1.4"/>
+<path d="M56,110 H104 V430 H56 A16,16 0 0,1 40,414 V126 A16,16 0 0,1 56,110 Z" fill="#EEF2F7"/>
+<text x="66" y="270.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#334155" text-anchor="middle" letter-spacing="2.5" transform="rotate(-90 66 270.0)">INGESTION</text>
+<text x="89" y="270.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#64748B" text-anchor="middle" transform="rotate(-90 89 270.0)">make ingest</text>
+<path d="M130,177 A105.0,12 0 0,1 340,177 L340,378 A105.0,12 0 0,1 130,378 Z" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+<path d="M130,177 A105.0,12 0 0,0 340,177" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+<text x="235.0" y="258.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle" >Corpus</text>
+<text x="235.0" y="279.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >4 patents (PDF, 1 scanned)</text>
+<text x="235.0" y="297.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >3 design docs (PDF + DOCX)</text>
+<text x="235.0" y="314.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >CSV test log</text>
+<text x="235.0" y="332.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >XLSX bill of materials</text>
+<rect x="400" y="175" width="210" height="80" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="505.0" y="209.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle" >LibreOffice</text>
+<text x="505.0" y="231.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >DOCX → PDF, so it has pages</text>
+<path d="M340,215 L398,215" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="369" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >DOCX</text>
+<rect x="670" y="140" width="390" height="275" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="865" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#1D4ED8" text-anchor="middle" >Docling</text>
+<rect x="690" y="182" width="350" height="48" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.3"/>
+<text x="865" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1E3A8A" text-anchor="middle" >Layout model</text>
+<text x="865" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >finds text, headings, tables, figures</text>
+<rect x="690" y="238" width="350" height="48" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.3"/>
+<text x="865" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1E3A8A" text-anchor="middle" >Reading order</text>
+<text x="865" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >rule-based; keeps two columns apart</text>
+<rect x="690" y="294" width="350" height="48" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.3"/>
+<text x="865" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1E3A8A" text-anchor="middle" >TableFormer</text>
+<text x="865" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >rows, columns, header cells</text>
+<rect x="690" y="350" width="350" height="48" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.3"/>
+<text x="865" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#1E3A8A" text-anchor="middle" >Tesseract OCR</text>
+<text x="865" y="388" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >scanned pages and image regions</text>
+<circle cx="1048" cy="152" r="11" fill="#7C3AED"/>
+<text x="1048" y="156.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >E</text>
+<path d="M610,215 L668,215" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<path d="M340,350 L668,350" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="505" y="342" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >PDFs</text>
+<rect x="1120" y="160" width="210" height="92" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="1225.0" y="192.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle" >Figure crops</text>
+<text x="1225.0" y="213.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >each figure cut from</text>
+<text x="1225.0" y="231.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >the page image</text>
+<path d="M1060,206 L1118,206" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="1089" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >figures</text>
+<rect x="1400" y="140" width="330" height="112" rx="12" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="1565.0" y="173.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#C2410C" text-anchor="middle" >VLM figure description</text>
+<text x="1565.0" y="194.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >components + reference numerals, arrows,</text>
+<text x="1565.0" y="212.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >summary → ~40-word pieces</text>
+<text x="1565.0" y="229.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >each tagged “FIG. n”</text>
+<circle cx="1718" cy="152" r="11" fill="#7C3AED"/>
+<text x="1718" y="156.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >E</text>
+<path d="M1330,206 L1398,206" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<path d="M1400,302 A165.0,12 0 0,1 1730,302 L1730,400 A165.0,12 0 0,1 1400,400 Z" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+<path d="M1400,302 A165.0,12 0 0,0 1730,302" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+<text x="1565.0" y="349.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle" >extracted/</text>
+<text x="1565.0" y="370.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >one JSON per document</text>
+<text x="1565.0" y="388.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >every item keeps its doc + page</text>
+<path d="M1565,252 L1565,288" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="1575" y="275" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="start" >figure pieces</text>
+<path d="M1060,360 L1398,360" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="1229" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >text + tables</text>
+<rect x="40" y="455" width="1720" height="400" rx="16" fill="#FBFCFE" stroke="#E2E8F0" stroke-width="1.4"/>
+<path d="M56,455 H104 V855 H56 A16,16 0 0,1 40,839 V471 A16,16 0 0,1 56,455 Z" fill="#EEF2F7"/>
+<text x="66" y="655.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#334155" text-anchor="middle" letter-spacing="2.5" transform="rotate(-90 66 655.0)">ANSWERING</text>
+<text x="89" y="655.0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#64748B" text-anchor="middle" transform="rotate(-90 89 655.0)">make ask Q=&quot;…&quot;</text>
+<path d="M1565,412 L1565,487 L380,487 L380,513" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="980" y="480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >units built from extracted/</text>
+<path d="M235,390 L235,728" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="227" y="610" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="end" >CSV + XLSX</text>
+<rect x="270" y="515" width="220" height="100" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="380.0" y="542.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle" >Units</text>
+<text x="380.0" y="563.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >one per text block, table row</text>
+<text x="380.0" y="581.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >or figure piece; each with</text>
+<text x="380.0" y="598.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >doc, page, section heading</text>
+<rect x="530" y="515" width="190" height="100" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="625.0" y="551.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle" >BM25 search</text>
+<text x="625.0" y="572.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >keyword match on</text>
+<text x="625.0" y="590.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >doc name + text</text>
+<circle cx="708" cy="527" r="11" fill="#7C3AED"/>
+<text x="708" y="531.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >R</text>
+<path d="M490,565 L528,565" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<rect x="270" y="640" width="150" height="50" rx="25" fill="#FFFFFF" stroke="#475569" stroke-width="1.6"/>
+<circle cx="298" cy="658" r="7" fill="#475569"/><path d="M286,680 Q298,664 310,680 Z" fill="#475569"/>
+<text x="362" y="670" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="middle" >Question</text>
+<path d="M420,665 L625,665 L625,617" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<path d="M625,665 L625,728" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<path d="M130,742 A100.0,12 0 0,1 330,742 L330,823 A100.0,12 0 0,1 130,823 Z" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+<path d="M130,742 A100.0,12 0 0,0 330,742" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+<text x="230.0" y="789.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle" >SQLite</text>
+<text x="230.0" y="810.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >one table per CSV / XLSX</text>
+<rect x="530" y="730" width="190" height="100" rx="12" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="625.0" y="766.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#C2410C" text-anchor="middle" >Router</text>
+<text x="625.0" y="787.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >do the tables help?</text>
+<text x="625.0" y="805.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >→ writes a SQL SELECT</text>
+<path d="M330,780 L528,780" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="430" y="772" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >schema</text>
+<rect x="770" y="730" width="190" height="100" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="865.0" y="766.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle" >Run SQL</text>
+<text x="865.0" y="787.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >read-only, on SQLite</text>
+<text x="865.0" y="805.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >if it fails: documents only</text>
+<path d="M720,780 L768,780" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<rect x="1010" y="590" width="200" height="140" rx="12" fill="#FFF7ED" stroke="#F97316" stroke-width="1.6"/>
+<text x="1110.0" y="628.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#C2410C" text-anchor="middle" >Answer model</text>
+<text x="1110.0" y="650.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >reads the units with their IDs</text>
+<text x="1110.0" y="667.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >→ answer + citations</text>
+<text x="1110.0" y="685.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >(unit ID + exact quote)</text>
+<text x="1110.0" y="702.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >or “not found”</text>
+<path d="M720,565 L1110,565 L1110,588" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="900" y="557" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >top 10 units</text>
+<path d="M960,780 L1110,780 L1110,732" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="1035" y="798" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748B" text-anchor="middle" >result as one more unit</text>
+<rect x="1255" y="590" width="200" height="140" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="1355.0" y="628.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="middle" >Citation check</text>
+<text x="1355.0" y="650.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >keeps a citation only if</text>
+<text x="1355.0" y="667.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >the unit was shown and</text>
+<text x="1355.0" y="685.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >its quote matches the text;</text>
+<text x="1355.0" y="702.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="middle" >none left → “not found”</text>
+<path d="M1210,660 L1253,660" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<rect x="1500" y="560" width="240" height="205" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+<text x="1620" y="588" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#047857" text-anchor="middle" >Output (JSON)</text>
+<text x="1522" y="614" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">{</text>
+<text x="1522" y="632" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">  &quot;answer&quot;: &quot;…&quot;,</text>
+<text x="1522" y="650" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">  &quot;citations&quot;: [</text>
+<text x="1522" y="668" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">    {&quot;doc&quot;: &quot;…&quot;, &quot;page&quot;: 2}</text>
+<text x="1522" y="686" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">  ],</text>
+<text x="1522" y="704" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">  &quot;not_found&quot;: false</text>
+<text x="1522" y="722" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#065F46" xml:space="preserve">}</text>
+<circle cx="1728" cy="572" r="11" fill="#7C3AED"/>
+<text x="1728" y="576.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >A</text>
+<path d="M1455,660 L1498,660" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<text x="1620" y="790" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#64748B" text-anchor="middle" >+ a trace per question: units shown,</text>
+<text x="1620" y="806" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#64748B" text-anchor="middle" >route + SQL, raw model reply</text>
+<rect x="40" y="880" width="1720" height="245" rx="16" fill="#FBFCFE" stroke="#E2E8F0" stroke-width="1.4"/>
+<path d="M56,880 H104 V1125 H56 A16,16 0 0,1 40,1109 V896 A16,16 0 0,1 56,880 Z" fill="#EEF2F7"/>
+<text x="66" y="1002.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#334155" text-anchor="middle" letter-spacing="2.5" transform="rotate(-90 66 1002.5)">EVALUATION</text>
+<text x="89" y="1002.5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#64748B" text-anchor="middle" transform="rotate(-90 89 1002.5)">make eval</text>
+<rect x="130" y="905" width="400" height="135" rx="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.6"/>
+<circle cx="156" cy="931" r="11" fill="#7C3AED"/>
+<text x="156" y="935.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >E</text>
+<text x="176" y="936" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#5B21B6" text-anchor="start" >Extraction</text>
+<text x="152" y="966" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• OCR error rate (CER / WER) vs hand-typed pages</text>
+<text x="152" y="987" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• table cells in the right row and column</text>
+<text x="152" y="1008" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• figures found, numbered, numerals read</text>
+<rect x="570" y="905" width="400" height="135" rx="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.6"/>
+<circle cx="596" cy="931" r="11" fill="#7C3AED"/>
+<text x="596" y="935.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >R</text>
+<text x="616" y="936" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#5B21B6" text-anchor="start" >Retrieval</text>
+<text x="592" y="966" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• recall@10 vs audited gold pages</text>
+<text x="592" y="987" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• broken down by question type</text>
+<rect x="1010" y="905" width="400" height="135" rx="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.6"/>
+<circle cx="1036" cy="931" r="11" fill="#7C3AED"/>
+<text x="1036" y="935.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle" >A</text>
+<text x="1056" y="936" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#5B21B6" text-anchor="start" >Answers</text>
+<text x="1032" y="966" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#C2410C" text-anchor="start" >• LLM judge: correct vs reference answer</text>
+<text x="1032" y="987" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• numbers within ±1%</text>
+<text x="1032" y="1008" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• citation precision</text>
+<text x="1032" y="1029" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" >• “not found” on unanswerable questions</text>
+<path d="M1460,912 A140.0,12 0 0,1 1740,912 L1740,1028 A140.0,12 0 0,1 1460,1028 Z" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+<path d="M1460,912 A140.0,12 0 0,0 1740,912" fill="none" stroke="#94A3B8" stroke-width="1.6"/>
+<text x="1600.0" y="959.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#334155" text-anchor="middle" >results/</text>
+<text x="1600.0" y="980.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >scores by question type</text>
+<text x="1600.0" y="998.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >per-question answers, citations,</text>
+<text x="1600.0" y="1015.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#334155" text-anchor="middle" >judge verdict and trace</text>
+<path d="M330,1040 L330,1085 L1600,1085 L1600,1042" fill="none" stroke="#94A3B8" stroke-width="1.7" marker-end="url(#arr)"/>
+<path d="M770,1040 L770,1085 M1210,1040 L1210,1085" stroke="#94A3B8" stroke-width="1.7"/>
+</svg>

@@ -2,6 +2,10 @@
 
 **macOS only.** This code and these instructions were built and tested on macOS 15 (Apple Silicon). They have not been tested on Linux or Windows.
 
+## Architecture
+
+![Architecture](docs/architecture.svg)
+
 ## Setup and commands
 
 ### 1. System packages (install once, with [Homebrew](https://brew.sh))
