@@ -30,9 +30,6 @@ QUOTE_MIN_SIMILARITY = 0.9       # a quote must be at least this similar (word b
 # --- Router ---
 SCHEMA_MAX_DISTINCT = 20         # the router sees every value of a text column that has at most this many distinct values
 
-# --- Evals ---
-NUM_TOLERANCE = 0.01             # a number in our answer matches the reference's if within ±1%
-
 # --- Prompts ---
 SYSTEM = """You answer questions about engineering documents using only the evidence units provided.
 Each unit starts with [unit_id] followed by its document, page and type.

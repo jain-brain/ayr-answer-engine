@@ -40,7 +40,7 @@ then run the commands without `make`:
 
 ```bash
 python -m answer_engine.ingest
-python -m answer_engine.ask "What is the IP rating of the EV-BMS-100?"
+python -m answer_engine.ask "What is the ingress protection rating of the EV-BMS-100?"
 python -m answer_engine.ask --questions questions.json --out answers.json
 python -m answer_engine.evaluate                    # dev set
 python -m answer_engine.evaluate questions.json     # another questions file
@@ -68,7 +68,7 @@ export OPENAI_API_KEY=sk-...
 | Command | What it does |
 |---|---|
 | `make ingest` | Extracts every PDF / DOCX in the corpus and describes its figures → `extracted/` |
-| `make ask Q="What is the IP rating of the EV-BMS-100?"` | One answer, as JSON in the brief's shape |
+| `make ask Q="What is the ingress protection rating of the EV-BMS-100?"` | One answer, as JSON in the brief's shape |
 | `make answer QUESTIONS=questions.json OUT=answers.json` | Answers for a whole questions file (`[{"id", "question"}]`), e.g. a hidden test set |
 | `make eval` | Extraction, retrieval and answer scores on the dev set → `results/` |
 | `make eval QUESTIONS=questions.json` | The same scores on another questions file in the dev set's format (`id`, `type`, `question`, `reference_answer`, `evidence`) |
@@ -111,16 +111,15 @@ All results in one table. The question columns are the 22 dev-set questions, sco
 | Extraction | Numerals read and linked in the patent figures | | | | | | 28 / 28 |
 | Retrieval | Recall@10: a gold page among the 10 units shown | 1.00 | 1.00 | 1.00 | 1.00 | | 1.00 |
 | Answers | Correct (LLM judge) | 0.80 | 0.86 | 1.00 | 0.75 | 1.00 | 0.86 (19 / 22) |
-| Answers | Numbers match (±1%) | 0.50 | 0.83 | | 0.50 | | 0.64 |
 | Answers | Citation precision: cited pages that are gold pages | 1.00 | 0.86 | 1.00 | 1.00 | | 0.95 |
 | Answers | Said "not found" (should be 1 for unanswerable, 0 elsewhere) | 0.00 | 0.00 | 0.00 | 0.25 | 1.00 | right declines 2 / 2, wrong declines 1 / 20 |
 | Answers | Figure questions cite the asked figure | | | 1.00 | | | 1.00 |
 
-Empty cells: the metric doesn't apply (e.g. no numbers in the reference, no gold page for unanswerable questions). The RJA-40 Figure 2 description came back empty in this ingest, hence 8 / 9 figure numbers. Per-question detail (answer, citations, judge verdict, trace) is in `results/dev_per_question.json`.
+Empty cells: the metric doesn't apply (e.g. no gold page for unanswerable questions). The RJA-40 Figure 2 description came back empty in this ingest, hence 8 / 9 figure numbers. Per-question detail (answer, citations, judge verdict, trace) is in `results/dev_per_question.json`.
 
 **How answers are judged:**
 - **Free text: an LLM judge plus a manual check.** The judge (gpt-5-nano) compares our answer with the reference: correct if it states the same facts, incorrect if a fact is wrong or missing, or if only one of the two says "not found". The judge isn't reliable yet when an answer is incomplete or worded differently (e.g. the same "180.0" for q20 was marked incorrect in one run and correct in another), so we read every answer it marks incorrect. In this run: q05 and q09 left out part of the reference (the tail-sitting recharging pad; the 10 s limit), and q18 said "not found".
-- **Numbers:** every number in the reference must appear in our answer within **±1%**. Numbers inside names (`RJA-40`, `IP67`) are ignored.
+- **Numbers: judged by the LLM judge, with no separate metric.** The judge requires the same values and units as the reference. We first also scored a "numbers match" metric (every number in the reference must appear in our answer within ±1%) and dropped it. Our wrong answers never had a number slightly off: they left a value out or said "not found", which the judge already catches, so the tolerance metric was redundant. It also failed correct answers whose reference carries numbers the question didn't ask for (q04's label 38, q20's working "8 units at $22.50").
 - **Citations:** precision = share of our cited pages that are gold pages.
 - **"Not found":** counted when an answer has no surviving citation.
 

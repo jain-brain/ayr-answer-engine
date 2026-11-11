@@ -9,7 +9,7 @@ setup:    ## install the pinned dependencies (optional: every command below does
 ingest:   ## extract every document in the corpus + describe its figures -> extracted/
 	$(RUN) answer_engine.ingest
 
-ask:      ## make ask Q="What is the IP rating of the EV-BMS-100?"
+ask:      ## make ask Q="What is the ingress protection rating of the EV-BMS-100?"
 	$(RUN) answer_engine.ask "$(Q)"
 
 answer:   ## make answer QUESTIONS=path/to/questions.json OUT=answers.json   (e.g. a hidden test set)

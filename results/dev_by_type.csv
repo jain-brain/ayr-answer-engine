@@ -1,7 +1,6 @@
 ,factual,figure,structured,table,unanswerable,all
 recall at 10,1.0,1.0,1.0,1.0,,1.0
 judge correct,0.8,1.0,0.75,0.8571428571428571,1.0,0.8636363636363636
-numbers match,0.5,,0.5,0.8333333333333334,,0.6428571428571429
 citation precision,1.0,1.0,1.0,0.8571428571428571,,0.9473684210526315
 said not found,0.0,0.0,0.25,0.0,1.0,0.13636363636363635
 figure cited,,1.0,,,,1.0

@@ -8,7 +8,6 @@
    or on any questions file in the same format: make eval QUESTIONS=path/to/questions.json
    - recall at K: a gold page is among the K units shown to the model (a SQL result unit counts);
    - judge correct: an LLM judge finds our answer states the same facts as the reference;
-   - numbers match: every number in the reference is in our answer within ±NUM_TOLERANCE;
    - citation precision: share of our cited pages that are gold pages;
    - said not found: on unanswerable questions this should be 1, on all others 0;
    - figure cited: for figure questions, a cited unit is a piece of the asked figure.
@@ -32,7 +31,7 @@ from tqdm import tqdm
 
 from . import llm
 from .ask import answer_all
-from .config import CORPUS, EXTRACTED, GOLD, JUDGE, K, MODEL, NUM_TOLERANCE, RESULTS, WORKERS
+from .config import CORPUS, EXTRACTED, GOLD, JUDGE, K, MODEL, RESULTS, WORKERS
 from .engine import brief_output, index, tokenize
 
 # Dev-set gold pages we checked against the source pages and corrected (README: "Dev-set gold page corrections").
@@ -147,14 +146,6 @@ def judge(question, reference, ours):
         return "error raised"
 
 
-def numbers(s):            # numbers as written, not inside names: "-30 °C to 65 °C" -> [-30, 65]; "RJA-GEAR-101" -> []
-    return [float(n.replace(",", "")) for n in re.findall(r"(?<![\w.-])-?\d+(?:,\d{3})*(?:\.\d+)?", s)]
-
-
-def numbers_match(reference, ours):
-    return all(any(abs(o - r) <= NUM_TOLERANCE * abs(r) for o in numbers(ours)) for r in numbers(reference))
-
-
 def figure_cited(question, gold_doc, unit_ids):
     """A cited unit is a figure piece of the gold document that names the figure the question asks about."""
     units = index()[0].set_index("unit_id")
@@ -182,7 +173,6 @@ def question_set(path, corrections):
             "our answer": final["answer"], "judge": verdict,
             "recall at K": bool(gold & set(shown[:K])) if gold else None,
             "judge correct": verdict == "correct",
-            "numbers match": numbers_match(q["reference_answer"], final["answer"]) if numbers(q["reference_answer"]) else None,
             "citation precision": len(gold & set(cited)) / len(cited) if cited else None,
             "said not found": not final["citations"],
             "figure cited": figure_cited(q["question"], next(iter(gold)).rsplit(" p", 1)[0], [c["unit_id"] for c in final["citations"]])
@@ -211,7 +201,7 @@ def main():
 
     print(f"\nRunning {path.name} ({WORKERS} questions at a time)...")
     results, answers = question_set(path, AUDITED if is_dev else {})     # our page corrections are for the dev set only
-    metrics = ["recall at K", "judge correct", "numbers match", "citation precision", "said not found", "figure cited"]
+    metrics = ["recall at K", "judge correct", "citation precision", "said not found", "figure cited"]
     scores = results[["type"] + metrics].assign(**{m: results[m].astype(float) for m in metrics})
     by_type = scores.groupby("type").mean()
     by_type.loc["all"] = scores[metrics].mean()
