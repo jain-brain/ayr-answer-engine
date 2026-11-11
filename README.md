@@ -65,6 +65,8 @@ export OPENAI_API_KEY=sk-...
 
 ### 4. Commands
 
+`make eval` does everything `make answer` does, plus scoring. Scoring needs reference answers and gold pages, so a file with only questions (e.g. a hidden test set) goes through `make answer`.
+
 | Command | What it does |
 |---|---|
 | `make ingest` | Extracts every PDF / DOCX in the corpus and describes its figures → `extracted/` |
