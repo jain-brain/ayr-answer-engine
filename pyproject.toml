@@ -1,0 +1,22 @@
+[project]
+name = "answer-engine"
+version = "1.0.0"
+description = "Cited answer engine over engineering documents (take-home)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "docling==2.146.0",        # layout, reading order, tables; calls Tesseract for OCR
+    "docling-core==2.105.0",   # DoclingDocument (reading the extracted JSON)
+    "pypdfium2==5.14.0",       # renders pages to crop the figures
+    "rank-bm25==0.2.2",        # keyword search
+    "openai==3.46.0",          # hosted model: figures, router, answer, judge
+    "pydantic==2.14.2",        # the JSON shapes the model must return
+    "pandas==3.1.0",
+    "openpyxl==3.1.5",         # reads the XLSX
+    "python-dotenv==1.2.4",    # reads .env
+    "jiwer==4.0.0",            # CER / WER (eval)
+    "python-docx==1.2.0",      # reads the hand-typed gold (eval)
+    "tqdm==4.70.1",            # progress bars
+]
+
+[tool.uv]
+package = false                # run from the repo with `python -m answer_engine.<command>`; nothing to build

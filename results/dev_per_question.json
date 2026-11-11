@@ -1,0 +1,1076 @@
+[
+ {
+  "id":"q01",
+  "type":"factual",
+  "question":"In US8,485,576 B2 (Robotic Gripper), what provides the attractive force at the tip of pin 120 in the electromagnetic embodiment?",
+  "reference answer":"An electromagnet 120a energized by a wire 125a wound around it.",
+  "our answer":"An electromagnet (electromagnet 120a energized by a wire 125a wound around the electromagnet) provides the attractive force at the tip of pin 120.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US8485576B2_robotic_gripper p2"
+  ],
+  "cited":[
+   "U187 US8485576B2_robotic_gripper p2: a distal end 129 of each pin 120 comprises an electromagnet 120a energized by a wire 125a wound around the electromagnet."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U176 US8485576B2_robotic_gripper p1",
+   "U180 US8485576B2_robotic_gripper p1",
+   "U188 US8485576B2_robotic_gripper p2",
+   "U185 US8485576B2_robotic_gripper p1",
+   "U187 US8485576B2_robotic_gripper p2",
+   "U173 US8485576B2_robotic_gripper p1",
+   "U170 US8485576B2_robotic_gripper p1",
+   "U165 US8485576B2_robotic_gripper p1",
+   "U181 US8485576B2_robotic_gripper p1",
+   "U167 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"An electromagnet (electromagnet 120a energized by a wire 125a wound around the electromagnet) provides the attractive force at the tip of pin 120.",
+   "citations":[
+    {
+     "unit_id":"U187",
+     "quote":"a distal end 129 of each pin 120 comprises an electromagnet 120a energized by a wire 125a wound around the electromagnet."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q02",
+  "type":"factual",
+  "question":"According to US2,988,237 (Programmed Article Transfer), what component reduces the transfer head's traverse rate in advance of the required stopping point?",
+  "reference answer":"The function control anticipator 64.",
+  "our answer":"the function control anticipator 64.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US2988237A_programmed_article_transfer p1"
+  ],
+  "cited":[
+   "U144 US2988237A_programmed_article_transfer p1: codes; a function control anticipator 64 coupled to the program drum for reducing a traverse rate of the transfer head in advance of a required stopping"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U139 US2988237A_programmed_article_transfer p1",
+   "U144 US2988237A_programmed_article_transfer p1",
+   "U126 US2988237A_programmed_article_transfer p1",
+   "U122 US2988237A_programmed_article_transfer p1",
+   "U147 US2988237A_programmed_article_transfer p2",
+   "U134 US2988237A_programmed_article_transfer p1",
+   "U141 US2988237A_programmed_article_transfer p1",
+   "U127 US2988237A_programmed_article_transfer p1",
+   "U128 US2988237A_programmed_article_transfer p1",
+   "U143 US2988237A_programmed_article_transfer p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"the function control anticipator 64.",
+   "citations":[
+    {
+     "unit_id":"U144",
+     "quote":"a function control anticipator 64 coupled to the program drum for reducing a traverse rate of the transfer head in advance of a required stopping point"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q03",
+  "type":"factual",
+  "question":"How many microprocessors monitor the run-away state in the controller described in US5,481,460 (Controller for Electric Vehicle)?",
+  "reference answer":"Three or more microprocessors.",
+  "our answer":"three or more microprocessors.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US5481460A_ev_controller p1"
+  ],
+  "cited":[
+   "U157 US5481460A_ev_controller p1: controller 30 for an electric vehicle is constructed by three or more microprocessors to monitor a run away state of the microprocessors mutually, so that a motor is not accelerated or decelerated abnormally if one microprocessor fails.",
+   "U162 US5481460A_ev_controller p1: The controller of claim 1, wherein the controller 30 is constructed by three or more microprocessors configured to monitor a run-away state of the microprocessors mutually."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U162 US5481460A_ev_controller p1",
+   "U157 US5481460A_ev_controller p1",
+   "U150 US5481460A_ev_controller p1",
+   "U151 US5481460A_ev_controller p1",
+   "U160 US5481460A_ev_controller p1",
+   "U161 US5481460A_ev_controller p1",
+   "U156 US5481460A_ev_controller p1",
+   "U110 US20170320570A1_uav_vtol p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U041 Falcon-VT1_flight_controller_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"three or more microprocessors.",
+   "citations":[
+    {
+     "unit_id":"U157",
+     "quote":"controller 30 for an electric vehicle is constructed by three or more microprocessors to monitor a run away state of the microprocessors mutually, so that a motor is not accelerated or decelerated abnormally if one microprocessor fails."
+    },
+    {
+     "unit_id":"U162",
+     "quote":"The controller of claim 1, wherein the controller 30 is constructed by three or more microprocessors configured to monitor a run-away state of the microprocessors mutually."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q04",
+  "type":"factual",
+  "question":"In US2017\/0320570A1 (UAV VTOL patent), how many batteries does the UAV have and where are they located?",
+  "reference answer":"Three batteries (38): two in the left and right wings, and one in the fuselage.",
+  "our answer":"Three batteries in total; two are located in the left and right wings, and the third is located in the fuselage.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US20170320570A1_uav_vtol p1"
+  ],
+  "cited":[
+   "U113 US20170320570A1_uav_vtol p1: The UAV has three batteries 38 symmetrically housed within the airframe: two batteries 38 are disposed within the left and right wings while a third battery 38 is disposed within the fuselage."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U113 US20170320570A1_uav_vtol p1",
+   "U091 US20170320570A1_uav_vtol p1",
+   "U119 US20170320570A1_uav_vtol p1",
+   "U098 US20170320570A1_uav_vtol p1",
+   "U097 US20170320570A1_uav_vtol p1",
+   "U101 US20170320570A1_uav_vtol p1",
+   "U095 US20170320570A1_uav_vtol p1",
+   "U092 US20170320570A1_uav_vtol p1",
+   "U099 US20170320570A1_uav_vtol p1",
+   "U107 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Three batteries in total; two are located in the left and right wings, and the third is located in the fuselage.",
+   "citations":[
+    {
+     "unit_id":"U113",
+     "quote":"The UAV has three batteries 38 symmetrically housed within the airframe: two batteries 38 are disposed within the left and right wings while a third battery 38 is disposed within the fuselage."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q05",
+  "type":"factual",
+  "question":"What recharges the UAV's battery in US2017\/0320570A1, and what is the mechanism called?",
+  "reference answer":"Wireless power transfer (WPT) circuitry 40, via inductive recharging while tail-sitting on a recharging pad.",
+  "our answer":"Inductively recharged via wireless power transfer (WPT) circuitry.",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US20170320570A1_uav_vtol p1",
+   "US20170320570A1_uav_vtol p2"
+  ],
+  "cited":[
+   "U113 US20170320570A1_uav_vtol p1: inductively recharged via wireless power transfer (WPT) circuitry 40"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U117 US20170320570A1_uav_vtol p1",
+   "U159 US5481460A_ev_controller p1",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U143 US2988237A_programmed_article_transfer p1",
+   "U101 US20170320570A1_uav_vtol p1",
+   "U113 US20170320570A1_uav_vtol p1",
+   "U138 US2988237A_programmed_article_transfer p1",
+   "U115 US20170320570A1_uav_vtol p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U107 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Inductively recharged via wireless power transfer (WPT) circuitry.",
+   "citations":[
+    {
+     "unit_id":"U113",
+     "quote":"inductively recharged via wireless power transfer (WPT) circuitry 40"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q06",
+  "type":"table",
+  "question":"What is the maximum discharge current rating of the EV-BMS-100?",
+  "reference answer":"320 A continuous, 450 A for 10 seconds.",
+  "our answer":"The maximum discharge current rating is 450 A for 10 s (continuous rating: 320 A).",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "EV-BMS-100_design_document p2"
+  ],
+  "cited":[
+   "U021 EV-BMS-100_design_document p2: 320 A",
+   "U021 EV-BMS-100_design_document p2: 450 A for 10 s"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U021 EV-BMS-100_design_document p2",
+   "U001 EV-BMS-100_design_document p1",
+   "U160 US5481460A_ev_controller p1",
+   "U159 US5481460A_ev_controller p1",
+   "U014 EV-BMS-100_design_document p1",
+   "U034 EV-BMS-100_design_document p2",
+   "U016 EV-BMS-100_design_document p1",
+   "U008 EV-BMS-100_design_document p1",
+   "U161 US5481460A_ev_controller p1",
+   "U012 EV-BMS-100_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"The maximum discharge current rating is 450 A for 10 s (continuous rating: 320 A).",
+   "citations":[
+    {
+     "unit_id":"U021",
+     "quote":"320 A"
+    },
+    {
+     "unit_id":"U021",
+     "quote":"450 A for 10 s"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q07",
+  "type":"table",
+  "question":"What ingress protection (IP) rating does the EV-BMS-100 enclosure have?",
+  "reference answer":"IP67.",
+  "our answer":"IP67",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "EV-BMS-100_design_document p2"
+  ],
+  "cited":[
+   "U032 EV-BMS-100_design_document p2: 4. Mechanical Specifications: Ingress protection | IP67 | connectors mated"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U032 EV-BMS-100_design_document p2",
+   "U085 RJA-40_actuator_design_document p2",
+   "U037 EV-BMS-100_design_document p2",
+   "U038 EV-BMS-100_design_document p3",
+   "U036 EV-BMS-100_design_document p2",
+   "U028 EV-BMS-100_design_document p2",
+   "U001 EV-BMS-100_design_document p1",
+   "U030 EV-BMS-100_design_document p2",
+   "U159 US5481460A_ev_controller p1",
+   "U039 EV-BMS-100_design_document p3"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"IP67",
+   "citations":[
+    {
+     "unit_id":"U032",
+     "quote":"4. Mechanical Specifications: Ingress protection | IP67 | connectors mated"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q08",
+  "type":"table",
+  "question":"What communication protocol and bus speed does the EV-BMS-100 use?",
+  "reference answer":"CAN 2.0B at 500 kbps.",
+  "our answer":"CAN 2.0B, 500 kbps.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "EV-BMS-100_design_document p2"
+  ],
+  "cited":[
+   "U027 EV-BMS-100_design_document p2: 3. Electrical Specifications: Communication protocol | CAN 2.0B, 500 kbps | J1939-style PGNs"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U027 EV-BMS-100_design_document p2",
+   "U016 EV-BMS-100_design_document p1",
+   "U008 EV-BMS-100_design_document p1",
+   "U159 US5481460A_ev_controller p1",
+   "U163 US5481460A_ev_controller p1",
+   "U039 EV-BMS-100_design_document p3",
+   "U012 EV-BMS-100_design_document p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U070 RJA-40_actuator_design_document p1",
+   "U069 RJA-40_actuator_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"CAN 2.0B, 500 kbps.",
+   "citations":[
+    {
+     "unit_id":"U027",
+     "quote":"3. Electrical Specifications: Communication protocol | CAN 2.0B, 500 kbps | J1939-style PGNs"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q09",
+  "type":"table",
+  "question":"What is the peak current per ESC channel on the Falcon-VT1 flight controller?",
+  "reference answer":"60 A, for a maximum of 10 seconds.",
+  "our answer":"60 A",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "Falcon-VT1_flight_controller_design_document p2"
+  ],
+  "cited":[
+   "U054 Falcon-VT1_flight_controller_design_document p2: 3. Electrical Specifications: Peak current per ESC channel | 60 A | 10 s max"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U054 Falcon-VT1_flight_controller_design_document p2",
+   "U053 Falcon-VT1_flight_controller_design_document p2",
+   "U041 Falcon-VT1_flight_controller_design_document p1",
+   "U048 Falcon-VT1_flight_controller_design_document p1",
+   "U049 Falcon-VT1_flight_controller_design_document p1",
+   "U043 Falcon-VT1_flight_controller_design_document p1",
+   "U050 Falcon-VT1_flight_controller_design_document p1",
+   "U047 Falcon-VT1_flight_controller_design_document p1",
+   "U046 Falcon-VT1_flight_controller_design_document p1",
+   "U045 Falcon-VT1_flight_controller_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"60 A",
+   "citations":[
+    {
+     "unit_id":"U054",
+     "quote":"3. Electrical Specifications: Peak current per ESC channel | 60 A | 10 s max"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q10",
+  "type":"table",
+  "question":"What is the operating temperature range of the Falcon-VT1 flight controller?",
+  "reference answer":"-20 °C to 55 °C.",
+  "our answer":"The operating temperature range is -20 °C to 55 °C.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "Falcon-VT1_flight_controller_design_document p2"
+  ],
+  "cited":[
+   "U058 Falcon-VT1_flight_controller_design_document p2: -20 °C to 55 °C"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U058 Falcon-VT1_flight_controller_design_document p2",
+   "U057 Falcon-VT1_flight_controller_design_document p2",
+   "U028 EV-BMS-100_design_document p2",
+   "U052 Falcon-VT1_flight_controller_design_document p2",
+   "U041 Falcon-VT1_flight_controller_design_document p1",
+   "U040 Falcon-VT1_flight_controller_design_document p1",
+   "U050 Falcon-VT1_flight_controller_design_document p1",
+   "U051 Falcon-VT1_flight_controller_design_document p2",
+   "U042 Falcon-VT1_flight_controller_design_document p1",
+   "U044 Falcon-VT1_flight_controller_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"The operating temperature range is -20 °C to 55 °C.",
+   "citations":[
+    {
+     "unit_id":"U058",
+     "quote":"-20 °C to 55 °C"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q11",
+  "type":"table",
+  "question":"What is the backlash specification for the RJA-40 actuator module?",
+  "reference answer":"Less than 3 arcminutes, measured at the output flange.",
+  "our answer":"Backlash < 3 arcmin, measured at output flange.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "RJA-40_actuator_design_document p2"
+  ],
+  "cited":[
+   "U082 RJA-40_actuator_design_document p2: 3. Electrical & Mechanical Specifications: Backlash | < 3 arcmin | measured at output flange"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U090 RJA-40_actuator_design_document p2",
+   "U082 RJA-40_actuator_design_document p2",
+   "U063 RJA-40_actuator_design_document p1",
+   "U064 RJA-40_actuator_design_document p1",
+   "U086 RJA-40_actuator_design_document p2",
+   "U089 RJA-40_actuator_design_document p2",
+   "U070 RJA-40_actuator_design_document p1",
+   "U067 RJA-40_actuator_design_document p1",
+   "U062 RJA-40_actuator_design_document p1",
+   "U066 RJA-40_actuator_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Backlash < 3 arcmin, measured at output flange.",
+   "citations":[
+    {
+     "unit_id":"U082",
+     "quote":"3. Electrical & Mechanical Specifications: Backlash | < 3 arcmin | measured at output flange"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q12",
+  "type":"table",
+  "question":"What is the rated continuous torque of the RJA-40 actuator, and what is its peak torque?",
+  "reference answer":"Rated (continuous) torque is 40 N·m; peak torque is 120 N·m for up to 1 second.",
+  "our answer":"Rated continuous torque is 40 N·m; peak torque is 120 N·m (1 s max).",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":0.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "RJA-40_actuator_design_document p2"
+  ],
+  "cited":[
+   "U074 RJA-40_actuator_design_document p1: 3. Electrical & Mechanical Specifications: Rated torque | 40 N·m | continuous, output flange",
+   "U075 RJA-40_actuator_design_document p1: 3. Electrical & Mechanical Specifications: Peak torque | 120 N·m | 1 s max"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U074 RJA-40_actuator_design_document p1",
+   "U075 RJA-40_actuator_design_document p1",
+   "U090 RJA-40_actuator_design_document p2",
+   "U077 RJA-40_actuator_design_document p1",
+   "U117 US20170320570A1_uav_vtol p1",
+   "U159 US5481460A_ev_controller p1",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U143 US2988237A_programmed_article_transfer p1",
+   "U064 RJA-40_actuator_design_document p1",
+   "U067 RJA-40_actuator_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Rated continuous torque is 40 N·m; peak torque is 120 N·m (1 s max).",
+   "citations":[
+    {
+     "unit_id":"U074",
+     "quote":"3. Electrical & Mechanical Specifications: Rated torque | 40 N·m | continuous, output flange"
+    },
+    {
+     "unit_id":"U075",
+     "quote":"3. Electrical & Mechanical Specifications: Peak torque | 120 N·m | 1 s max"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q13",
+  "type":"figure",
+  "question":"What component is labelled 160 in FIG. 2 of US8,485,576 B2?",
+  "reference answer":"The control unit.",
+  "our answer":"control unit",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "US8485576B2_robotic_gripper p1"
+  ],
+  "cited":[
+   "U172 US8485576B2_robotic_gripper p1: ABSTRACT: FIG. 2: Control unit 160 is driven by the right constraining plate 110.",
+   "U169 US8485576B2_robotic_gripper p1: FIG. 2: Right constraining plate 110 feeds into control unit 160."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U176 US8485576B2_robotic_gripper p1",
+   "U165 US8485576B2_robotic_gripper p1",
+   "U172 US8485576B2_robotic_gripper p1",
+   "U130 US2988237A_programmed_article_transfer p1",
+   "U132 US2988237A_programmed_article_transfer p1",
+   "U131 US2988237A_programmed_article_transfer p1",
+   "U127 US2988237A_programmed_article_transfer p1",
+   "U169 US8485576B2_robotic_gripper p1",
+   "U128 US2988237A_programmed_article_transfer p1",
+   "U184 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"control unit",
+   "citations":[
+    {
+     "unit_id":"U172",
+     "quote":"ABSTRACT: FIG. 2: Control unit 160 is driven by the right constraining plate 110."
+    },
+    {
+     "unit_id":"U169",
+     "quote":"FIG. 2: Right constraining plate 110 feeds into control unit 160."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q14",
+  "type":"figure",
+  "question":"What component is labelled 112 in FIG. 2 of US2,988,237?",
+  "reference answer":"The gate.",
+  "our answer":"Component 112 is a gate.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "US2988237A_programmed_article_transfer p1"
+  ],
+  "cited":[
+   "U132 US2988237A_programmed_article_transfer p1: ABSTRACT: FIG. 2: Component 112 is a gate."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U122 US2988237A_programmed_article_transfer p1",
+   "U132 US2988237A_programmed_article_transfer p1",
+   "U129 US2988237A_programmed_article_transfer p1",
+   "U130 US2988237A_programmed_article_transfer p1",
+   "U131 US2988237A_programmed_article_transfer p1",
+   "U127 US2988237A_programmed_article_transfer p1",
+   "U128 US2988237A_programmed_article_transfer p1",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U159 US5481460A_ev_controller p1",
+   "U117 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Component 112 is a gate.",
+   "citations":[
+    {
+     "unit_id":"U132",
+     "quote":"ABSTRACT: FIG. 2: Component 112 is a gate."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q15",
+  "type":"figure",
+  "question":"In FIG. 3 of US2017\/0320570A1, what is component 18?",
+  "reference answer":"The left thrust-generating device.",
+  "our answer":"Left thrust device.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "US20170320570A1_uav_vtol p1"
+  ],
+  "cited":[
+   "U097 US20170320570A1_uav_vtol p1: FIG. 3: Left thrust device 18 is a rectangular block located below the left wing."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U097 US20170320570A1_uav_vtol p1",
+   "U159 US5481460A_ev_controller p1",
+   "U117 US20170320570A1_uav_vtol p1",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U143 US2988237A_programmed_article_transfer p1",
+   "U132 US2988237A_programmed_article_transfer p1",
+   "U131 US2988237A_programmed_article_transfer p1",
+   "U130 US2988237A_programmed_article_transfer p1",
+   "U095 US20170320570A1_uav_vtol p1",
+   "U127 US2988237A_programmed_article_transfer p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Left thrust device.",
+   "citations":[
+    {
+     "unit_id":"U097",
+     "quote":"FIG. 3: Left thrust device 18 is a rectangular block located below the left wing."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q16",
+  "type":"figure",
+  "question":"How many M12 connector ports are shown on the EV-BMS-100 enclosure in Figure 2 of its design document?",
+  "reference answer":"Four.",
+  "our answer":"4",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "EV-BMS-100_design_document p2",
+   "EV-BMS-100_design_document p3"
+  ],
+  "cited":[
+   "U038 EV-BMS-100_design_document p3: 4. Mechanical Specifications: Figure 2 - BMS enclosure rendering showing the four M12 connector ports (pack sense, power, CAN, and auxiliary 12 V).",
+   "U036 EV-BMS-100_design_document p2: 4. Mechanical Specifications: Figure 2: The figure shows a rectangular enclosure with four M12 connectors on its front panel.",
+   "U034 EV-BMS-100_design_document p2: 4. Mechanical Specifications: Figure 2: Component M12 connector x4 is arranged on the front face of the rectangular box; four circular connectors are visible in a row.",
+   "U037 EV-BMS-100_design_document p2: 4. Mechanical Specifications: Figure 2 — BMS Enclosure (rendering)",
+   "U035 EV-BMS-100_design_document p2: 4. Mechanical Specifications: Figure 2: There are no arrows or connecting lines drawn between components in this figure."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U038 EV-BMS-100_design_document p3",
+   "U036 EV-BMS-100_design_document p2",
+   "U034 EV-BMS-100_design_document p2",
+   "U037 EV-BMS-100_design_document p2",
+   "U035 EV-BMS-100_design_document p2",
+   "U180 US8485576B2_robotic_gripper p1",
+   "U028 EV-BMS-100_design_document p2",
+   "U030 EV-BMS-100_design_document p2",
+   "U181 US8485576B2_robotic_gripper p1",
+   "U173 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"4",
+   "citations":[
+    {
+     "unit_id":"U038",
+     "quote":"4. Mechanical Specifications: Figure 2 - BMS enclosure rendering showing the four M12 connector ports (pack sense, power, CAN, and auxiliary 12 V)."
+    },
+    {
+     "unit_id":"U036",
+     "quote":"4. Mechanical Specifications: Figure 2: The figure shows a rectangular enclosure with four M12 connectors on its front panel."
+    },
+    {
+     "unit_id":"U034",
+     "quote":"4. Mechanical Specifications: Figure 2: Component M12 connector x4 is arranged on the front face of the rectangular box; four circular connectors are visible in a row."
+    },
+    {
+     "unit_id":"U037",
+     "quote":"4. Mechanical Specifications: Figure 2 — BMS Enclosure (rendering)"
+    },
+    {
+     "unit_id":"U035",
+     "quote":"4. Mechanical Specifications: Figure 2: There are no arrows or connecting lines drawn between components in this figure."
+    }
+   ]
+  }
+ },
+ {
+  "id":"q17",
+  "type":"structured",
+  "question":"How many test runs failed in the test log?",
+  "reference answer":"7 test runs are marked FAIL.",
+  "our answer":"7",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "test_log p1"
+  ],
+  "cited":[
+   "SQL_test_log test_log p1: 7"
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT COUNT(*) AS failed_runs FROM test_log WHERE result = 'FAIL';"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_test_log test_log p1",
+   "U061 Falcon-VT1_flight_controller_design_document p2",
+   "U017 EV-BMS-100_design_document p1",
+   "U101 US20170320570A1_uav_vtol p1",
+   "U157 US5481460A_ev_controller p1",
+   "U099 US20170320570A1_uav_vtol p1",
+   "U178 US8485576B2_robotic_gripper p1",
+   "U095 US20170320570A1_uav_vtol p1",
+   "U100 US20170320570A1_uav_vtol p1",
+   "U064 RJA-40_actuator_design_document p1",
+   "U180 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"7",
+   "citations":[
+    {
+     "unit_id":"SQL_test_log",
+     "quote":"7"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q18",
+  "type":"structured",
+  "question":"How many distinct EV-BMS-100 units were tested in the test log?",
+  "reference answer":"18 distinct EV-BMS-100 units (by serial number).",
+  "our answer":"not found",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":false,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+   "test_log p1"
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT COUNT(DISTINCT unit_sn) AS distinct_units_tested FROM test_log WHERE unit_type = 'EV-BMS-100';"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_test_log test_log p1",
+   "U034 EV-BMS-100_design_document p2",
+   "U016 EV-BMS-100_design_document p1",
+   "U000 EV-BMS-100_design_document p1",
+   "U008 EV-BMS-100_design_document p1",
+   "U014 EV-BMS-100_design_document p1",
+   "U035 EV-BMS-100_design_document p2",
+   "U012 EV-BMS-100_design_document p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U004 EV-BMS-100_design_document p1",
+   "U038 EV-BMS-100_design_document p3"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"18",
+   "citations":[
+    {
+     "unit_id":"[SQL_test_log]",
+     "quote":"18"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q19",
+  "type":"structured",
+  "question":"Which part number in the bill of materials has the highest unit cost, and what is that cost?",
+  "reference answer":"RJA-GEAR-101 (planetary + harmonic gearset), at $315.75 per unit.",
+  "our answer":"RJA-GEAR-101 has the highest unit cost at 315.75 USD.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "bill_of_materials p1"
+  ],
+  "cited":[
+   "SQL_bill_of_materials bill_of_materials p1: RJA-GEAR-101,315.75"
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT part_number, unit_cost_usd FROM bill_of_materials WHERE unit_cost_usd = (SELECT MAX(unit_cost_usd) FROM bill_of_materials);"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_bill_of_materials bill_of_materials p1",
+   "U135 US2988237A_programmed_article_transfer p1",
+   "U136 US2988237A_programmed_article_transfer p1",
+   "U157 US5481460A_ev_controller p1",
+   "U111 US20170320570A1_uav_vtol p1",
+   "U181 US8485576B2_robotic_gripper p1",
+   "U161 US5481460A_ev_controller p1",
+   "U139 US2988237A_programmed_article_transfer p1",
+   "U113 US20170320570A1_uav_vtol p1",
+   "U151 US5481460A_ev_controller p1",
+   "U125 US2988237A_programmed_article_transfer p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"RJA-GEAR-101 has the highest unit cost at 315.75 USD.",
+   "citations":[
+    {
+     "unit_id":"SQL_bill_of_materials",
+     "quote":"RJA-GEAR-101,315.75"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q20",
+  "type":"structured",
+  "question":"What is the extended cost of the FVT-ESC-40A line item in the bill of materials?",
+  "reference answer":"$180.00 (8 units at $22.50 each).",
+  "our answer":"180.0",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "bill_of_materials p1"
+  ],
+  "cited":[
+   "SQL_bill_of_materials bill_of_materials p1: 180.0"
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT extended_cost_usd FROM bill_of_materials WHERE part_number = 'FVT-ESC-40A';"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_bill_of_materials bill_of_materials p1",
+   "U135 US2988237A_programmed_article_transfer p1",
+   "U110 US20170320570A1_uav_vtol p1",
+   "U125 US2988237A_programmed_article_transfer p1",
+   "U111 US20170320570A1_uav_vtol p1",
+   "U157 US5481460A_ev_controller p1",
+   "U126 US2988237A_programmed_article_transfer p1",
+   "U115 US20170320570A1_uav_vtol p1",
+   "U180 US8485576B2_robotic_gripper p1",
+   "U178 US8485576B2_robotic_gripper p1",
+   "U183 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"180.0",
+   "citations":[
+    {
+     "unit_id":"SQL_bill_of_materials",
+     "quote":"180.0"
+    }
+   ]
+  }
+ },
+ {
+  "id":"q21",
+  "type":"unanswerable",
+  "question":"What is the warranty period for the EV-BMS-100?",
+  "reference answer":"Not found — no document in the corpus states a warranty period.",
+  "our answer":"not found",
+  "judge":"correct",
+  "recall at K":null,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U001 EV-BMS-100_design_document p1",
+   "U159 US5481460A_ev_controller p1",
+   "U014 EV-BMS-100_design_document p1",
+   "U016 EV-BMS-100_design_document p1",
+   "U008 EV-BMS-100_design_document p1",
+   "U012 EV-BMS-100_design_document p1",
+   "U160 US5481460A_ev_controller p1",
+   "U010 EV-BMS-100_design_document p1",
+   "U034 EV-BMS-100_design_document p2",
+   "U017 EV-BMS-100_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ },
+ {
+  "id":"q22",
+  "type":"unanswerable",
+  "question":"What is the maximum flight altitude of a UAV equipped with the Falcon-VT1 flight controller?",
+  "reference answer":"Not found — no document in the corpus states a maximum altitude.",
+  "our answer":"not found",
+  "judge":"correct",
+  "recall at K":null,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U041 Falcon-VT1_flight_controller_design_document p1",
+   "U055 Falcon-VT1_flight_controller_design_document p2",
+   "U040 Falcon-VT1_flight_controller_design_document p1",
+   "U115 US20170320570A1_uav_vtol p1",
+   "U042 Falcon-VT1_flight_controller_design_document p1",
+   "U044 Falcon-VT1_flight_controller_design_document p1",
+   "U050 Falcon-VT1_flight_controller_design_document p1",
+   "U051 Falcon-VT1_flight_controller_design_document p2",
+   "U177 US8485576B2_robotic_gripper p1",
+   "U057 Falcon-VT1_flight_controller_design_document p2"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ }
+]

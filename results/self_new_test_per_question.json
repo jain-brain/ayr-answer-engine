@@ -1,0 +1,1185 @@
+[
+ {
+  "id":"n01",
+  "type":"factual",
+  "question":"In US8,485,576 B2 (Robotic Gripper), what prevents the pins 120 from falling through the constraining plates 110?",
+  "reference answer":"A collar 121 on each pin that is larger than the corresponding hole 119.",
+  "our answer":"The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US8485576B2_robotic_gripper p1"
+  ],
+  "cited":[
+   "U180 US8485576B2_robotic_gripper p1: The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U180 US8485576B2_robotic_gripper p1",
+   "U175 US8485576B2_robotic_gripper p1",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U171 US8485576B2_robotic_gripper p1",
+   "U185 US8485576B2_robotic_gripper p1",
+   "U179 US8485576B2_robotic_gripper p1",
+   "U169 US8485576B2_robotic_gripper p1",
+   "U163 US8485576B2_robotic_gripper p1",
+   "U186 US8485576B2_robotic_gripper p2",
+   "U181 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119.",
+   "citations":[
+    {
+     "unit_id":"U180",
+     "quote":"The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n02",
+  "type":"factual",
+  "question":"According to US2017\/0320570A1, what onboard equipment records and locally stores image data?",
+  "reference answer":"A digital camera 42 and a data storage device 44 onboard the fuselage 12.",
+  "our answer":"A digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US20170320570A1_uav_vtol p2"
+  ],
+  "cited":[
+   "U113 US20170320570A1_uav_vtol p2: 5. The unmanned aerial vehicle of claim 1, further comprising a digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U113 US20170320570A1_uav_vtol p2",
+   "U110 US20170320570A1_uav_vtol p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U157 US5481460A_ev_controller p1",
+   "U135 US2988237A_programmed_article_transfer p1",
+   "U051 Falcon-VT1_flight_controller_design_document p1",
+   "U127 US2988237A_programmed_article_transfer p1",
+   "U179 US8485576B2_robotic_gripper p1",
+   "U112 US20170320570A1_uav_vtol p1",
+   "U111 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"A digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data.",
+   "citations":[
+    {
+     "unit_id":"U113",
+     "quote":"5. The unmanned aerial vehicle of claim 1, further comprising a digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n03",
+  "type":"factual",
+  "question":"In US5,481,460 (Controller for Electric Vehicle), what happens when the first current supply means is in an abnormal state?",
+  "reference answer":"The current supply from the first current supply means to the first motor is stopped, and the second current supply means supplies current to the first motor.",
+  "our answer":"When the first current supply means is in an abnormal state, the controller stops the current supply from the first current supply means to the first motor and supplies a current from the second current supply means to the first motor.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US5481460A_ev_controller p1"
+  ],
+  "cited":[
+   "U158 US5481460A_ev_controller p1: means for stopping the current supply from the first current supply means to the first motor and supplying a current from the second current supply means to the first motor when the first current supply means is in an abnormal state."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U158 US5481460A_ev_controller p1",
+   "U159 US5481460A_ev_controller p1",
+   "U155 US5481460A_ev_controller p1",
+   "U143 US5481460A_ev_controller p1",
+   "U142 US5481460A_ev_controller p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U154 US5481460A_ev_controller p1",
+   "U064 RJA-40_actuator_design_document p1",
+   "U113 US20170320570A1_uav_vtol p2",
+   "U179 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"When the first current supply means is in an abnormal state, the controller stops the current supply from the first current supply means to the first motor and supplies a current from the second current supply means to the first motor.",
+   "citations":[
+    {
+     "unit_id":"U158",
+     "quote":"means for stopping the current supply from the first current supply means to the first motor and supplying a current from the second current supply means to the first motor when the first current supply means is in an abnormal state."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n04",
+  "type":"factual",
+  "question":"Who is named as the inventor of US2,988,237 (Programmed Article Transfer), and when was it filed?",
+  "reference answer":"George C. Devol, Jr.; filed Dec. 10, 1954.",
+  "our answer":"Inventor: George; filed on Dec. 10, 1954.",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US2988237A_programmed_article_transfer p1"
+  ],
+  "cited":[
+   "U115 US2988237A_programmed_article_transfer p1: George Filed: Dec. 10, 1954"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U115 US2988237A_programmed_article_transfer p1",
+   "U132 US2988237A_programmed_article_transfer p1",
+   "U139 US2988237A_programmed_article_transfer p2",
+   "U129 US2988237A_programmed_article_transfer p1",
+   "U134 US2988237A_programmed_article_transfer p1",
+   "U140 US2988237A_programmed_article_transfer p2",
+   "U155 US5481460A_ev_controller p1",
+   "U117 US2988237A_programmed_article_transfer p1",
+   "U116 US2988237A_programmed_article_transfer p1",
+   "U133 US2988237A_programmed_article_transfer p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Inventor: George; filed on Dec. 10, 1954.",
+   "citations":[
+    {
+     "unit_id":"U115",
+     "quote":"George Filed: Dec. 10, 1954"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n05",
+  "type":"factual",
+  "question":"In US2,988,237, when the transfer head comprises a gripper, what motions make up its sequence of strokes?",
+  "reference answer":"Lifting, swinging and twisting motions, each controlled by a separate track of the program drum 62.",
+  "our answer":"lifting, swinging and twisting motions",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "US2988237A_programmed_article_transfer p2"
+  ],
+  "cited":[
+   "U140 US2988237A_programmed_article_transfer p2: the sequence of strokes comprises lifting, swinging and twisting motions"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U140 US2988237A_programmed_article_transfer p2",
+   "U136 US2988237A_programmed_article_transfer p1",
+   "U139 US2988237A_programmed_article_transfer p2",
+   "U129 US2988237A_programmed_article_transfer p1",
+   "U115 US2988237A_programmed_article_transfer p1",
+   "U118 US2988237A_programmed_article_transfer p1",
+   "U138 US2988237A_programmed_article_transfer p1",
+   "U155 US5481460A_ev_controller p1",
+   "U131 US2988237A_programmed_article_transfer p1",
+   "U179 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"lifting, swinging and twisting motions",
+   "citations":[
+    {
+     "unit_id":"U140",
+     "quote":"the sequence of strokes comprises lifting, swinging and twisting motions"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n06",
+  "type":"factual",
+  "question":"What change is planned for the EV-BMS-100 in Rev. D, and what benefit is expected?",
+  "reference answer":"Active balancing via a flyback topology, expected to improve pack-level capacity utilization by 2-3%.",
+  "our answer":"Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "EV-BMS-100_design_document p3"
+  ],
+  "cited":[
+   "U035 EV-BMS-100_design_document p3: A future Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U035 EV-BMS-100_design_document p3",
+   "U157 US5481460A_ev_controller p1",
+   "U110 US20170320570A1_uav_vtol p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U135 US2988237A_programmed_article_transfer p1",
+   "U087 RJA-40_actuator_design_document p2",
+   "U000 EV-BMS-100_design_document p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U007 EV-BMS-100_design_document p1",
+   "U003 EV-BMS-100_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%.",
+   "citations":[
+    {
+     "unit_id":"U035",
+     "quote":"A future Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n07",
+  "type":"factual",
+  "question":"How does the RJA-40 Rev. B module determine the torque at its output flange?",
+  "reference answer":"It estimates torque from motor current; Rev. B has no integrated torque sensor at the output flange.",
+  "our answer":"Torque is estimated from motor current; there is no integrated torque sensor at the output flange in Rev. B (a strain-gauge-based torque sensor is planned for Rev C).",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "RJA-40_actuator_design_document p2"
+  ],
+  "cited":[
+   "U087 RJA-40_actuator_design_document p2: 4. Known Limitations: The Rev. B module does not include an integrated torque sensor at the output flange; torque is estimated from motor current, which is less accurate under high-friction or high-backlash conditions. A strain-gauge-based torque sensor is planned for Rev. C."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U087 RJA-40_actuator_design_document p2",
+   "U063 RJA-40_actuator_design_document p1",
+   "U073 RJA-40_actuator_design_document p1",
+   "U081 RJA-40_actuator_design_document p2",
+   "U071 RJA-40_actuator_design_document p1",
+   "U067 RJA-40_actuator_design_document p1",
+   "U062 Falcon-VT1_flight_controller_design_document p2",
+   "U070 RJA-40_actuator_design_document p1",
+   "U074 RJA-40_actuator_design_document p1",
+   "U085 RJA-40_actuator_design_document p2"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Torque is estimated from motor current; there is no integrated torque sensor at the output flange in Rev. B (a strain-gauge-based torque sensor is planned for Rev C).",
+   "citations":[
+    {
+     "unit_id":"U087",
+     "quote":"4. Known Limitations: The Rev. B module does not include an integrated torque sensor at the output flange; torque is estimated from motor current, which is less accurate under high-friction or high-backlash conditions. A strain-gauge-based torque sensor is planned for Rev C."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n08",
+  "type":"table",
+  "question":"What is the nominal pack voltage of the EV-BMS-100?",
+  "reference answer":"355.2 V (96S1P, 3.7 V\/cell nominal).",
+  "our answer":"355.2 V",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "EV-BMS-100_design_document p2"
+  ],
+  "cited":[
+   "U014 EV-BMS-100_design_document p2: 3. Electrical Specifications: Nominal pack voltage | 355.2 V | 96S1P, 3.7 V\/cell nominal"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U014 EV-BMS-100_design_document p2",
+   "U003 EV-BMS-100_design_document p1",
+   "U002 EV-BMS-100_design_document p1",
+   "U020 EV-BMS-100_design_document p2",
+   "U001 EV-BMS-100_design_document p1",
+   "U011 EV-BMS-100_design_document p1",
+   "U004 EV-BMS-100_design_document p1",
+   "U006 EV-BMS-100_design_document p1",
+   "U034 EV-BMS-100_design_document p3",
+   "U012 EV-BMS-100_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"355.2 V",
+   "citations":[
+    {
+     "unit_id":"U014",
+     "quote":"3. Electrical Specifications: Nominal pack voltage | 355.2 V | 96S1P, 3.7 V\/cell nominal"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n09",
+  "type":"table",
+  "question":"What is the undervoltage threshold of the EV-BMS-100?",
+  "reference answer":"2.80 V\/cell (latching fault).",
+  "our answer":"2.80 V\/cell",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "EV-BMS-100_design_document p2"
+  ],
+  "cited":[
+   "U019 EV-BMS-100_design_document p2: 3. Electrical Specifications: Undervoltage threshold | 2.80 V\/cell | latching fault"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U019 EV-BMS-100_design_document p2",
+   "U018 EV-BMS-100_design_document p2",
+   "U032 EV-BMS-100_design_document p2",
+   "U007 EV-BMS-100_design_document p1",
+   "U029 EV-BMS-100_design_document p2",
+   "U003 EV-BMS-100_design_document p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U008 EV-BMS-100_design_document p1",
+   "U011 EV-BMS-100_design_document p1",
+   "U157 US5481460A_ev_controller p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"2.80 V\/cell",
+   "citations":[
+    {
+     "unit_id":"U019",
+     "quote":"3. Electrical Specifications: Undervoltage threshold | 2.80 V\/cell | latching fault"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n10",
+  "type":"table",
+  "question":"What processor does the Falcon-VT1 flight controller use?",
+  "reference answer":"A dual-core Cortex-M7 @ 480 MHz with an M4 co-processor.",
+  "our answer":"Dual-core Cortex-M7 @ 480 | MHz with M4 co-processor",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "Falcon-VT1_flight_controller_design_document p2"
+  ],
+  "cited":[
+   "U056 Falcon-VT1_flight_controller_design_document p2: 3. Electrical Specifications: Processor | Dual-core Cortex-M7 @ 480 | MHz with M4 co-processor"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U056 Falcon-VT1_flight_controller_design_document p2",
+   "U062 Falcon-VT1_flight_controller_design_document p2",
+   "U036 Falcon-VT1_flight_controller_design_document p1",
+   "U047 Falcon-VT1_flight_controller_design_document p1",
+   "U039 Falcon-VT1_flight_controller_design_document p1",
+   "U048 Falcon-VT1_flight_controller_design_document p1",
+   "U038 Falcon-VT1_flight_controller_design_document p1",
+   "U044 Falcon-VT1_flight_controller_design_document p1",
+   "U046 Falcon-VT1_flight_controller_design_document p1",
+   "U042 Falcon-VT1_flight_controller_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"Dual-core Cortex-M7 @ 480 | MHz with M4 co-processor",
+   "citations":[
+    {
+     "unit_id":"U056",
+     "quote":"3. Electrical Specifications: Processor | Dual-core Cortex-M7 @ 480 | MHz with M4 co-processor"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n11",
+  "type":"table",
+  "question":"What input voltage range does the Falcon-VT1 accept?",
+  "reference answer":"9 - 26 V DC (2S-6S LiPo compatible).",
+  "our answer":"9 - 26 V DC",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":false,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "Falcon-VT1_flight_controller_design_document p2"
+  ],
+  "cited":[
+   "U053 Falcon-VT1_flight_controller_design_document p2: 3. Electrical Specifications: Input voltage range | 9 - 26 V DC | 2S-6S LiPo compatible"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U053 Falcon-VT1_flight_controller_design_document p2",
+   "U058 Falcon-VT1_flight_controller_design_document p2",
+   "U059 Falcon-VT1_flight_controller_design_document p2",
+   "U004 EV-BMS-100_design_document p1",
+   "U062 Falcon-VT1_flight_controller_design_document p2",
+   "U041 Falcon-VT1_flight_controller_design_document p1",
+   "U036 Falcon-VT1_flight_controller_design_document p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U157 US5481460A_ev_controller p1",
+   "U110 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"9 - 26 V DC",
+   "citations":[
+    {
+     "unit_id":"U053",
+     "quote":"3. Electrical Specifications: Input voltage range | 9 - 26 V DC | 2S-6S LiPo compatible"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n12",
+  "type":"table",
+  "question":"What is the gear ratio of the RJA-40 actuator?",
+  "reference answer":"101:1 (planetary + harmonic stages).",
+  "our answer":"101:1",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "RJA-40_actuator_design_document p1"
+  ],
+  "cited":[
+   "U075 RJA-40_actuator_design_document p1: 3. Electrical & Mechanical Specifications: Gear ratio | 101:1 | planetary + harmonic stages"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U075 RJA-40_actuator_design_document p1",
+   "U071 RJA-40_actuator_design_document p1",
+   "U068 RJA-40_actuator_design_document p1",
+   "U065 RJA-40_actuator_design_document p1",
+   "U069 RJA-40_actuator_design_document p1",
+   "U067 RJA-40_actuator_design_document p1",
+   "U063 RJA-40_actuator_design_document p1",
+   "U070 RJA-40_actuator_design_document p1",
+   "U086 RJA-40_actuator_design_document p2",
+   "U085 RJA-40_actuator_design_document p2"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"101:1",
+   "citations":[
+    {
+     "unit_id":"U075",
+     "quote":"3. Electrical & Mechanical Specifications: Gear ratio | 101:1 | planetary + harmonic stages"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n13",
+  "type":"table",
+  "question":"What ingress protection rating does the RJA-40 module have?",
+  "reference answer":"IP54 (shaft seal fitted).",
+  "our answer":"IP54",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "RJA-40_actuator_design_document p2"
+  ],
+  "cited":[
+   "U084 RJA-40_actuator_design_document p2: 3. Electrical & Mechanical Specifications: Ingress protection | IP54 | shaft seal fitted"
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U084 RJA-40_actuator_design_document p2",
+   "U027 EV-BMS-100_design_document p2",
+   "U086 RJA-40_actuator_design_document p2",
+   "U085 RJA-40_actuator_design_document p2",
+   "U087 RJA-40_actuator_design_document p2",
+   "U063 RJA-40_actuator_design_document p1",
+   "U083 RJA-40_actuator_design_document p2",
+   "U064 RJA-40_actuator_design_document p1",
+   "U070 RJA-40_actuator_design_document p1",
+   "U068 RJA-40_actuator_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"IP54",
+   "citations":[
+    {
+     "unit_id":"U084",
+     "quote":"3. Electrical & Mechanical Specifications: Ingress protection | IP54 | shaft seal fitted"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n14",
+  "type":"figure",
+  "question":"What component is labelled 64 in FIG. 2 of US2,988,237?",
+  "reference answer":"The function control anticipator.",
+  "our answer":"function control anticipator",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "US2988237A_programmed_article_transfer p1"
+  ],
+  "cited":[
+   "U121 US2988237A_programmed_article_transfer p1: ABSTRACT: FIG. 2: 64 function control anticipator is a separate block labeled 'function control anticipator'.",
+   "U131 US2988237A_programmed_article_transfer p1: A rate control 76 and a delayed-gate valve control circuit 45 cooperate with a function control anticipator 64 so that fast traverse of the transfer head is reduced in advance of the required stopping point, avoiding overtravel."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U115 US2988237A_programmed_article_transfer p1",
+   "U121 US2988237A_programmed_article_transfer p1",
+   "U157 US5481460A_ev_controller p1",
+   "U110 US20170320570A1_uav_vtol p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U135 US2988237A_programmed_article_transfer p1",
+   "U133 US2988237A_programmed_article_transfer p1",
+   "U174 US8485576B2_robotic_gripper p1",
+   "U131 US2988237A_programmed_article_transfer p1",
+   "U091 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"function control anticipator",
+   "citations":[
+    {
+     "unit_id":"U121",
+     "quote":"ABSTRACT: FIG. 2: 64 function control anticipator is a separate block labeled 'function control anticipator'."
+    },
+    {
+     "unit_id":"U131",
+     "quote":"A rate control 76 and a delayed-gate valve control circuit 45 cooperate with a function control anticipator 64 so that fast traverse of the transfer head is reduced in advance of the required stopping point, avoiding overtravel."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n15",
+  "type":"figure",
+  "question":"In FIG. 1 of US5,481,460, what component is labelled 24?",
+  "reference answer":"The left wheel speed sensor.",
+  "our answer":"the left wheel speed sensor.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "US5481460A_ev_controller p1"
+  ],
+  "cited":[
+   "U147 US5481460A_ev_controller p1: ABSTRACT: FIG. 1: Component 24 is the left wheel speed sensor.",
+   "U145 US5481460A_ev_controller p1: ABSTRACT: FIG. 1: Component 20 is the left drive motor. It is connected to left wheel speed sensor 24.",
+   "U152 US5481460A_ev_controller p1: ABSTRACT: FIG. 1: Arrow from 20 to 24 indicates the left wheel speed sensor is driven by the left drive motor."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U147 US5481460A_ev_controller p1",
+   "U145 US5481460A_ev_controller p1",
+   "U142 US5481460A_ev_controller p1",
+   "U110 US20170320570A1_uav_vtol p1",
+   "U157 US5481460A_ev_controller p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U152 US5481460A_ev_controller p1",
+   "U135 US2988237A_programmed_article_transfer p1",
+   "U148 US5481460A_ev_controller p1",
+   "U108 US20170320570A1_uav_vtol p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"the left wheel speed sensor.",
+   "citations":[
+    {
+     "unit_id":"U147",
+     "quote":"ABSTRACT: FIG. 1: Component 24 is the left wheel speed sensor."
+    },
+    {
+     "unit_id":"U145",
+     "quote":"ABSTRACT: FIG. 1: Component 20 is the left drive motor. It is connected to left wheel speed sensor 24."
+    },
+    {
+     "unit_id":"U152",
+     "quote":"ABSTRACT: FIG. 1: Arrow from 20 to 24 indicates the left wheel speed sensor is driven by the left drive motor."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n16",
+  "type":"figure",
+  "question":"In Figure 1 of the EV-BMS-100 design document, which block sends its output to the Vehicle ECU?",
+  "reference answer":"The Contactor Driver.",
+  "our answer":"The Contactor Driver.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":true,
+  "gold pages":[
+   "EV-BMS-100_design_document p1"
+  ],
+  "cited":[
+   "U007 EV-BMS-100_design_document p1: Figure 1: Contactor Driver is driven by the BMS MCU and controls the Vehicle ECU.",
+   "U008 EV-BMS-100_design_document p1: Figure 1: Vehicle ECU is the downstream device controlled by the Contactor Driver."
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U011 EV-BMS-100_design_document p1",
+   "U007 EV-BMS-100_design_document p1",
+   "U008 EV-BMS-100_design_document p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U032 EV-BMS-100_design_document p2",
+   "U143 US5481460A_ev_controller p1",
+   "U155 US5481460A_ev_controller p1",
+   "U029 EV-BMS-100_design_document p2",
+   "U154 US5481460A_ev_controller p1",
+   "U010 EV-BMS-100_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"The Contactor Driver.",
+   "citations":[
+    {
+     "unit_id":"U007",
+     "quote":"Figure 1: Contactor Driver is driven by the BMS MCU and controls the Vehicle ECU."
+    },
+    {
+     "unit_id":"U008",
+     "quote":"Figure 1: Vehicle ECU is the downstream device controlled by the Contactor Driver."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n17",
+  "type":"figure",
+  "question":"How many bolt holes are shown on the RJA-40 module in Figure 2 of its design document?",
+  "reference answer":"Eight.",
+  "our answer":"not found",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":false,
+  "gold pages":[
+   "RJA-40_actuator_design_document p2"
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U029 EV-BMS-100_design_document p2",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U086 RJA-40_actuator_design_document p2",
+   "U085 RJA-40_actuator_design_document p2",
+   "U180 US8485576B2_robotic_gripper p1",
+   "U179 US8485576B2_robotic_gripper p1",
+   "U032 EV-BMS-100_design_document p2",
+   "U031 EV-BMS-100_design_document p2",
+   "U171 US8485576B2_robotic_gripper p1",
+   "U063 RJA-40_actuator_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ },
+ {
+  "id":"n18",
+  "type":"figure",
+  "question":"In Figure 1 of the Falcon-VT1 design document, what is the arrow from the Flight Controller MCU to the RF Transceiver labelled?",
+  "reference answer":"Telemetry.",
+  "our answer":"not found",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":false,
+  "gold pages":[
+   "Falcon-VT1_flight_controller_design_document p1"
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U047 Falcon-VT1_flight_controller_design_document p1",
+   "U051 Falcon-VT1_flight_controller_design_document p1",
+   "U041 Falcon-VT1_flight_controller_design_document p1",
+   "U039 Falcon-VT1_flight_controller_design_document p1",
+   "U153 US5481460A_ev_controller p1",
+   "U004 EV-BMS-100_design_document p1",
+   "U050 Falcon-VT1_flight_controller_design_document p1",
+   "U049 Falcon-VT1_flight_controller_design_document p1",
+   "U152 US5481460A_ev_controller p1",
+   "U151 US5481460A_ev_controller p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"telemetry",
+   "citations":[
+    {
+     "unit_id":"U047",
+     "quote":"Component RF Transceiver receives telemetry from the Flight Controller MCU (autopilot)."
+    }
+   ]
+  }
+ },
+ {
+  "id":"n19",
+  "type":"structured",
+  "question":"How many test runs in the test log were performed by operator R. Patel?",
+  "reference answer":"26.",
+  "our answer":"26",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "test_log p1"
+  ],
+  "cited":[
+   "SQL_test_log test_log p1: 26"
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT COUNT(*) AS test_runs_by_r_patel FROM test_log WHERE operator = 'R. Patel';"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_test_log test_log p1",
+   "U012 EV-BMS-100_design_document p1",
+   "U155 US5481460A_ev_controller p1",
+   "U129 US2988237A_programmed_article_transfer p1",
+   "U186 US8485576B2_robotic_gripper p2",
+   "U143 US5481460A_ev_controller p1",
+   "U181 US8485576B2_robotic_gripper p1",
+   "U118 US2988237A_programmed_article_transfer p1",
+   "U105 US20170320570A1_uav_vtol p1",
+   "U111 US20170320570A1_uav_vtol p1",
+   "U032 EV-BMS-100_design_document p2"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"26",
+   "citations":[
+    {
+     "unit_id":"SQL_test_log",
+     "quote":"26"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n20",
+  "type":"structured",
+  "question":"Which RJA-40 unit failed the encoder accuracy test, and what was its measured value?",
+  "reference answer":"RJA-2019, measured 0.348 arcmin (test T-1049).",
+  "our answer":"RJA-2019; measured value 0.348 arcmin.",
+  "judge":"correct",
+  "recall at K":true,
+  "judge correct":true,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "test_log p1"
+  ],
+  "cited":[
+   "SQL_test_log test_log p1: RJA-2019,2026-08-11,0.348,arcmin"
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT unit_sn, date, measured_value, unit_of_measure FROM test_log WHERE unit_type = 'RJA-40' AND test_type = 'encoder_accuracy' AND result = 'FAIL' ORDER BY date ASC;"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_test_log test_log p1",
+   "U071 RJA-40_actuator_design_document p1",
+   "U081 RJA-40_actuator_design_document p2",
+   "U070 RJA-40_actuator_design_document p1",
+   "U072 RJA-40_actuator_design_document p1",
+   "U068 RJA-40_actuator_design_document p1",
+   "U066 RJA-40_actuator_design_document p1",
+   "U080 RJA-40_actuator_design_document p2",
+   "U159 US5481460A_ev_controller p1",
+   "U064 RJA-40_actuator_design_document p1",
+   "U062 Falcon-VT1_flight_controller_design_document p2"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"RJA-2019; measured value 0.348 arcmin.",
+   "citations":[
+    {
+     "unit_id":"SQL_test_log",
+     "quote":"RJA-2019,2026-08-11,0.348,arcmin"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n21",
+  "type":"structured",
+  "question":"What is the total extended cost of all bill-of-materials parts used on the RJA-40?",
+  "reference answer":"$908.65.",
+  "our answer":"908.65",
+  "judge":"incorrect",
+  "recall at K":true,
+  "judge correct":false,
+  "numbers match":true,
+  "citation precision":1.0,
+  "said not found":false,
+  "figure cited":null,
+  "gold pages":[
+   "bill_of_materials p1"
+  ],
+  "cited":[
+   "SQL_bill_of_materials bill_of_materials p1: 908.65"
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT SUM(extended_cost_usd) AS total_extended_cost FROM bill_of_materials WHERE used_on = 'RJA-40';"
+  },
+  "sql_error":null,
+  "shown":[
+   "SQL_bill_of_materials bill_of_materials p1",
+   "U127 US2988237A_programmed_article_transfer p1",
+   "U138 US2988237A_programmed_article_transfer p1",
+   "U104 US20170320570A1_uav_vtol p1",
+   "U029 EV-BMS-100_design_document p2",
+   "U180 US8485576B2_robotic_gripper p1",
+   "U103 US20170320570A1_uav_vtol p1",
+   "U106 US20170320570A1_uav_vtol p1",
+   "U118 US2988237A_programmed_article_transfer p1",
+   "U009 EV-BMS-100_design_document p1",
+   "U179 US8485576B2_robotic_gripper p1"
+  ],
+  "raw answer":{
+   "answerable":true,
+   "answer":"908.65",
+   "citations":[
+    {
+     "unit_id":"SQL_bill_of_materials",
+     "quote":"908.65"
+    }
+   ]
+  }
+ },
+ {
+  "id":"n22",
+  "type":"structured",
+  "question":"How many 4-pin CAN bus connectors are listed in the bill of materials, and who manufactures them?",
+  "reference answer":"10, manufactured by Molex.",
+  "our answer":"not found",
+  "judge":"incorrect",
+  "recall at K":false,
+  "judge correct":false,
+  "numbers match":false,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+   "bill_of_materials p1"
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":true,
+   "sql":"SELECT COALESCE(SUM(quantity),0) AS total_quantity, COALESCE(GROUP_CONCAT(DISTINCT manufacturer, ', '), '') AS manufacturers FROM bill_of_materials WHERE ((lower(description) LIKE '%4-pin%' OR lower(description) LIKE '%4pin%' OR lower(part_number) LIKE '%4-pin%' OR lower(part_number) LIKE '%4pin%')) AND ((lower(description) LIKE '%CAN%' OR lower(part_number) LIKE '%CAN%'));"
+  },
+  "sql_error":"Execution failed on sql 'SELECT COALESCE(SUM(quantity),0) AS total_quantity, COALESCE(GROUP_CONCAT(DISTINCT manufacturer, ', '), '') AS manufacturers FROM bill_of_materials WHERE ((lower(description) LIKE '%4-pin%' OR lower(description) LIKE '%4pin%' OR lower(part_number) LIKE '%4-pin%' OR lower(part_number) LIKE '%4pin%')) AND ((lower(description) LIKE '%CAN%' OR lower(part_number) LIKE '%CAN%'));': DISTINCT aggregates must have exactly one argument",
+  "shown":[
+   "U032 EV-BMS-100_design_document p2",
+   "U009 EV-BMS-100_design_document p1",
+   "U182 US8485576B2_robotic_gripper p1",
+   "U031 EV-BMS-100_design_document p2",
+   "U118 US2988237A_programmed_article_transfer p1",
+   "U184 US8485576B2_robotic_gripper p1",
+   "U180 US8485576B2_robotic_gripper p1",
+   "U027 EV-BMS-100_design_document p2",
+   "U030 EV-BMS-100_design_document p2",
+   "U069 RJA-40_actuator_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ },
+ {
+  "id":"n23",
+  "type":"unanswerable",
+  "question":"What ingress protection (IP) rating does the Falcon-VT1 flight controller have?",
+  "reference answer":"Not found in the corpus.",
+  "our answer":"not found",
+  "judge":"correct",
+  "recall at K":null,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U027 EV-BMS-100_design_document p2",
+   "U084 RJA-40_actuator_design_document p2",
+   "U062 Falcon-VT1_flight_controller_design_document p2",
+   "U036 Falcon-VT1_flight_controller_design_document p1",
+   "U047 Falcon-VT1_flight_controller_design_document p1",
+   "U039 Falcon-VT1_flight_controller_design_document p1",
+   "U038 Falcon-VT1_flight_controller_design_document p1",
+   "U046 Falcon-VT1_flight_controller_design_document p1",
+   "U040 Falcon-VT1_flight_controller_design_document p1",
+   "U048 Falcon-VT1_flight_controller_design_document p1"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ },
+ {
+  "id":"n24",
+  "type":"unanswerable",
+  "question":"Who manufactures the lithium-ion cells used in the EV-BMS-100 battery pack?",
+  "reference answer":"Not found in the corpus.",
+  "our answer":"not found",
+  "judge":"correct",
+  "recall at K":null,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U002 EV-BMS-100_design_document p1",
+   "U001 EV-BMS-100_design_document p1",
+   "U011 EV-BMS-100_design_document p1",
+   "U003 EV-BMS-100_design_document p1",
+   "U009 EV-BMS-100_design_document p1",
+   "U034 EV-BMS-100_design_document p3",
+   "U032 EV-BMS-100_design_document p2",
+   "U000 EV-BMS-100_design_document p1",
+   "U031 EV-BMS-100_design_document p2",
+   "U020 EV-BMS-100_design_document p2"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ },
+ {
+  "id":"n25",
+  "type":"unanswerable",
+  "question":"What is the maximum payload the UAV in US2017\/0320570A1 can carry?",
+  "reference answer":"Not found in the corpus.",
+  "our answer":"not found",
+  "judge":"correct",
+  "recall at K":null,
+  "judge correct":true,
+  "numbers match":null,
+  "citation precision":null,
+  "said not found":true,
+  "figure cited":null,
+  "gold pages":[
+
+  ],
+  "cited":[
+
+  ],
+  "route":{
+   "use_sql":false,
+   "sql":""
+  },
+  "sql_error":null,
+  "shown":[
+   "U110 US20170320570A1_uav_vtol p1",
+   "U108 US20170320570A1_uav_vtol p1",
+   "U106 US20170320570A1_uav_vtol p1",
+   "U009 EV-BMS-100_design_document p1",
+   "U005 EV-BMS-100_design_document p1",
+   "U109 US20170320570A1_uav_vtol p1",
+   "U102 US20170320570A1_uav_vtol p1",
+   "U183 US8485576B2_robotic_gripper p1",
+   "U157 US5481460A_ev_controller p1",
+   "U135 US2988237A_programmed_article_transfer p1"
+  ],
+  "raw answer":{
+   "answerable":false,
+   "answer":"not found",
+   "citations":[
+
+   ]
+  }
+ }
+]

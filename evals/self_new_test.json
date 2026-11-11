@@ -1,0 +1,177 @@
+[
+  {
+    "id": "n01",
+    "type": "factual",
+    "question": "In US8,485,576 B2 (Robotic Gripper), what prevents the pins 120 from falling through the constraining plates 110?",
+    "reference_answer": "A collar 121 on each pin that is larger than the corresponding hole 119.",
+    "evidence": [{"doc": "US8485576B2_robotic_gripper.pdf", "page": 1}]
+  },
+  {
+    "id": "n02",
+    "type": "factual",
+    "question": "According to US2017/0320570A1, what onboard equipment records and locally stores image data?",
+    "reference_answer": "A digital camera 42 and a data storage device 44 onboard the fuselage 12.",
+    "evidence": [{"doc": "US20170320570A1_uav_vtol.pdf", "page": 2}]
+  },
+  {
+    "id": "n03",
+    "type": "factual",
+    "question": "In US5,481,460 (Controller for Electric Vehicle), what happens when the first current supply means is in an abnormal state?",
+    "reference_answer": "The current supply from the first current supply means to the first motor is stopped, and the second current supply means supplies current to the first motor.",
+    "evidence": [{"doc": "US5481460A_ev_controller.pdf", "page": 1}]
+  },
+  {
+    "id": "n04",
+    "type": "factual",
+    "question": "Who is named as the inventor of US2,988,237 (Programmed Article Transfer), and when was it filed?",
+    "reference_answer": "George C. Devol, Jr.; filed Dec. 10, 1954.",
+    "evidence": [{"doc": "US2988237A_programmed_article_transfer.pdf", "page": 1}]
+  },
+  {
+    "id": "n05",
+    "type": "factual",
+    "question": "In US2,988,237, when the transfer head comprises a gripper, what motions make up its sequence of strokes?",
+    "reference_answer": "Lifting, swinging and twisting motions, each controlled by a separate track of the program drum 62.",
+    "evidence": [{"doc": "US2988237A_programmed_article_transfer.pdf", "page": 2}]
+  },
+  {
+    "id": "n06",
+    "type": "factual",
+    "question": "What change is planned for the EV-BMS-100 in Rev. D, and what benefit is expected?",
+    "reference_answer": "Active balancing via a flyback topology, expected to improve pack-level capacity utilization by 2-3%.",
+    "evidence": [{"doc": "EV-BMS-100_design_document.pdf", "page": 3}]
+  },
+  {
+    "id": "n07",
+    "type": "factual",
+    "question": "How does the RJA-40 Rev. B module determine the torque at its output flange?",
+    "reference_answer": "It estimates torque from motor current; Rev. B has no integrated torque sensor at the output flange.",
+    "evidence": [{"doc": "RJA-40_actuator_design_document.docx", "page": 2}]
+  },
+  {
+    "id": "n08",
+    "type": "table",
+    "question": "What is the nominal pack voltage of the EV-BMS-100?",
+    "reference_answer": "355.2 V (96S1P, 3.7 V/cell nominal).",
+    "evidence": [{"doc": "EV-BMS-100_design_document.pdf", "page": 2}]
+  },
+  {
+    "id": "n09",
+    "type": "table",
+    "question": "What is the undervoltage threshold of the EV-BMS-100?",
+    "reference_answer": "2.80 V/cell (latching fault).",
+    "evidence": [{"doc": "EV-BMS-100_design_document.pdf", "page": 2}]
+  },
+  {
+    "id": "n10",
+    "type": "table",
+    "question": "What processor does the Falcon-VT1 flight controller use?",
+    "reference_answer": "A dual-core Cortex-M7 @ 480 MHz with an M4 co-processor.",
+    "evidence": [{"doc": "Falcon-VT1_flight_controller_design_document.pdf", "page": 2}]
+  },
+  {
+    "id": "n11",
+    "type": "table",
+    "question": "What input voltage range does the Falcon-VT1 accept?",
+    "reference_answer": "9 - 26 V DC (2S-6S LiPo compatible).",
+    "evidence": [{"doc": "Falcon-VT1_flight_controller_design_document.pdf", "page": 2}]
+  },
+  {
+    "id": "n12",
+    "type": "table",
+    "question": "What is the gear ratio of the RJA-40 actuator?",
+    "reference_answer": "101:1 (planetary + harmonic stages).",
+    "evidence": [{"doc": "RJA-40_actuator_design_document.docx", "page": 1}]
+  },
+  {
+    "id": "n13",
+    "type": "table",
+    "question": "What ingress protection rating does the RJA-40 module have?",
+    "reference_answer": "IP54 (shaft seal fitted).",
+    "evidence": [{"doc": "RJA-40_actuator_design_document.docx", "page": 2}]
+  },
+  {
+    "id": "n14",
+    "type": "figure",
+    "question": "What component is labelled 64 in FIG. 2 of US2,988,237?",
+    "reference_answer": "The function control anticipator.",
+    "evidence": [{"doc": "US2988237A_programmed_article_transfer.pdf", "page": 1}]
+  },
+  {
+    "id": "n15",
+    "type": "figure",
+    "question": "In FIG. 1 of US5,481,460, what component is labelled 24?",
+    "reference_answer": "The left wheel speed sensor.",
+    "evidence": [{"doc": "US5481460A_ev_controller.pdf", "page": 1}]
+  },
+  {
+    "id": "n16",
+    "type": "figure",
+    "question": "In Figure 1 of the EV-BMS-100 design document, which block sends its output to the Vehicle ECU?",
+    "reference_answer": "The Contactor Driver.",
+    "evidence": [{"doc": "EV-BMS-100_design_document.pdf", "page": 1}]
+  },
+  {
+    "id": "n17",
+    "type": "figure",
+    "question": "How many bolt holes are shown on the RJA-40 module in Figure 2 of its design document?",
+    "reference_answer": "Eight.",
+    "evidence": [{"doc": "RJA-40_actuator_design_document.docx", "page": 2}]
+  },
+  {
+    "id": "n18",
+    "type": "figure",
+    "question": "In Figure 1 of the Falcon-VT1 design document, what is the arrow from the Flight Controller MCU to the RF Transceiver labelled?",
+    "reference_answer": "Telemetry.",
+    "evidence": [{"doc": "Falcon-VT1_flight_controller_design_document.pdf", "page": 1}]
+  },
+  {
+    "id": "n19",
+    "type": "structured",
+    "question": "How many test runs in the test log were performed by operator R. Patel?",
+    "reference_answer": "26.",
+    "evidence": [{"doc": "test_log.csv", "page": 1}]
+  },
+  {
+    "id": "n20",
+    "type": "structured",
+    "question": "Which RJA-40 unit failed the encoder accuracy test, and what was its measured value?",
+    "reference_answer": "RJA-2019, measured 0.348 arcmin (test T-1049).",
+    "evidence": [{"doc": "test_log.csv", "page": 1}]
+  },
+  {
+    "id": "n21",
+    "type": "structured",
+    "question": "What is the total extended cost of all bill-of-materials parts used on the RJA-40?",
+    "reference_answer": "$908.65.",
+    "evidence": [{"doc": "bill_of_materials.xlsx", "page": 1}]
+  },
+  {
+    "id": "n22",
+    "type": "structured",
+    "question": "How many 4-pin CAN bus connectors are listed in the bill of materials, and who manufactures them?",
+    "reference_answer": "10, manufactured by Molex.",
+    "evidence": [{"doc": "bill_of_materials.xlsx", "page": 1}]
+  },
+  {
+    "id": "n23",
+    "type": "unanswerable",
+    "question": "What ingress protection (IP) rating does the Falcon-VT1 flight controller have?",
+    "reference_answer": "Not found in the corpus.",
+    "evidence": []
+  },
+  {
+    "id": "n24",
+    "type": "unanswerable",
+    "question": "Who manufactures the lithium-ion cells used in the EV-BMS-100 battery pack?",
+    "reference_answer": "Not found in the corpus.",
+    "evidence": []
+  },
+  {
+    "id": "n25",
+    "type": "unanswerable",
+    "question": "What is the maximum payload the UAV in US2017/0320570A1 can carry?",
+    "reference_answer": "Not found in the corpus.",
+    "evidence": []
+  }
+]

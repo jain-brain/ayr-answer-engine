@@ -1,0 +1,1440 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "US8485576B2_robotic_gripper",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 5139994174025296646,
+    "filename": "US8485576B2_robotic_gripper.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.02600000000001,
+            "t": 706.662,
+            "r": 209.574,
+            "b": 698.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "United States Patent",
+      "text": "United States Patent"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 107.265,
+            "t": 683.534,
+            "r": 229.33499999999998,
+            "b": 671.509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "ROBOTIC GRIPPER",
+      "text": "ROBOTIC GRIPPER",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.994,
+            "t": 666.662,
+            "r": 285.606,
+            "b": 610.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "Applicant: Barrett Technology, Inc. (assignee); Inventor of record redacted for this exercise, Newton, MA (US) Filed: Jul. 29, 2011 Serial No.: 13/193,847 Patent No.: 8,485,576 B2 Date of Patent: Jul. 16, 2013 19 Claims Classification: B25J 15/00 (2006.01); 294/86.4",
+      "text": "Applicant: Barrett Technology, Inc. (assignee); Inventor of record redacted for this exercise, Newton, MA (US) Filed: Jul. 29, 2011 Serial No.: 13/193,847 Patent No.: 8,485,576 B2 Date of Patent: Jul. 16, 2013 19 Claims Classification: B25J 15/00 (2006.01); 294/86.4"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 596.662,
+            "r": 95.091,
+            "b": 588.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 582.8593999999999,
+            "r": 291.0000040000001,
+            "b": 493.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            521
+          ]
+        }
+      ],
+      "orig": "A robotic gripping apparatus includes one or more constraining plates each having a plurality of holes formed therethrough and a plurality of elongate members. The elongate members are independently movable relative to one another. Each elongate member extends through a respective hole or set of aligning holes in the constraining plate(s). A distal end portion of one or more of the elongate members is capable of exerting a force for drawing an object against the distal end portion to thereby hold or grip the object.",
+      "text": "A robotic gripping apparatus includes one or more constraining plates each having a plurality of holes formed therethrough and a plurality of elongate members. The elongate members are independently movable relative to one another. Each elongate member extends through a respective hole or set of aligning holes in the constraining plate(s). A distal end portion of one or more of the elongate members is capable of exerting a force for drawing an object against the distal end portion to thereby hold or grip the object."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 152.33333333333334,
+            "t": 477.0,
+            "r": 179.0,
+            "b": 470.66666666666663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "FIG. 2",
+      "text": "FIG. 2"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 213.0,
+            "t": 449.33333333333337,
+            "r": 221.66666666666666,
+            "b": 444.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "00",
+      "text": "00"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.33333333333334,
+            "t": 428.0,
+            "r": 183.0,
+            "b": 423.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "end-effector",
+      "text": "end-effector"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.66666666666666,
+            "t": 421.3333333333333,
+            "r": 164.33333333333334,
+            "b": 416.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "(main",
+      "text": "(main"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 167.33333333333334,
+            "t": 421.3333333333333,
+            "r": 182.66666666666666,
+            "b": 415.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "body)",
+      "text": "body)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 108.33333333333333,
+            "t": 384.6666666666667,
+            "r": 116.33333333333333,
+            "b": 379.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.0,
+            "t": 384.6666666666667,
+            "r": 302.0,
+            "b": 379.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.333333333333336,
+            "t": 366.3333333333333,
+            "r": 90.0,
+            "b": 358.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "constraining",
+      "text": "constraining"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 241.0,
+            "t": 365.0,
+            "r": 275.6666666666667,
+            "b": 359.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "constraining",
+      "text": "constraining"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.33333333333334,
+            "t": 358.3333333333333,
+            "r": 79.66666666666667,
+            "b": 352.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "plate",
+      "text": "plate"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 251.66666666666666,
+            "t": 358.3333333333333,
+            "r": 265.0,
+            "b": 352.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "plate",
+      "text": "plate"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 201.0,
+            "t": 323.3333333333333,
+            "r": 209.33333333333334,
+            "b": 318.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 93.0,
+            "t": 304.6666666666667,
+            "r": 100.66666666666667,
+            "b": 299.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "12",
+      "text": "12"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 161.66666666666666,
+            "t": 299.0,
+            "r": 169.33333333333334,
+            "b": 294.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "pin",
+      "text": "pin"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.0,
+            "t": 290.0,
+            "r": 43.666666666666664,
+            "b": 284.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "plate",
+      "text": "plate"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.0,
+            "t": 290.0,
+            "r": 78.66666666666667,
+            "b": 284.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "translating/",
+      "text": "translating/"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 33.0,
+            "t": 283.3333333333333,
+            "r": 54.666666666666664,
+            "b": 277.33333333333326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "rotating",
+      "text": "rotating"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.333333333333336,
+            "t": 283.3333333333333,
+            "r": 75.33333333333333,
+            "b": 278.66666666666674,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "device",
+      "text": "device"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 261.0,
+            "t": 286.3333333333333,
+            "r": 293.3333333333333,
+            "b": 282.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "a",
+      "text": "a"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 147.33333333333334,
+            "t": 268.0,
+            "r": 154.66666666666666,
+            "b": 263.66666666666674,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 157.33333333333334,
+            "t": 265.66666666666674,
+            "r": 163.0,
+            "b": 265.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u2014",
+      "text": "\u2014"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 165.33333333333334,
+            "t": 268.33333333333326,
+            "r": 184.33333333333334,
+            "b": 262.33333333333326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "object",
+      "text": "object"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.468,
+            "t": 245.54399999999998,
+            "r": 290.132,
+            "b": 228.144,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "FIG. 2 - Perspective cross section of the gripper end-effector 100 in an unlocked configuration.",
+      "text": "FIG. 2 - Perspective cross section of the gripper end-effector 100 in an unlocked configuration."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 376.155,
+            "t": 706.662,
+            "r": 511.245,
+            "b": 698.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "US 8,485,576 B2 Jul. 16, 2013",
+      "text": "US 8,485,576 B2 Jul. 16, 2013"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 684.662,
+            "r": 474.0,
+            "b": 676.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "BACKGROUND OF THE INVENTION",
+      "text": "BACKGROUND OF THE INVENTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 670.8593999999999,
+            "r": 566.4000000000001,
+            "b": 632.5819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            255
+          ]
+        }
+      ],
+      "orig": "Industrial robots often employ an articulated mobile structure, commonly referred to as an arm, with mobility approximating that of a human arm. Such a robotic arm is equipped with a so-called end effector to enable the robot to perform its assigned task.",
+      "text": "Industrial robots often employ an articulated mobile structure, commonly referred to as an arm, with mobility approximating that of a human arm. Such a robotic arm is equipped with a so-called end effector to enable the robot to perform its assigned task."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 625.0594,
+            "r": 566.4000020000002,
+            "b": 586.7819000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "In some applications, the end-effector performs a grasping or gripping function. One class of gripping end-effectors uses a set of individual prehensile mechanical fingers which curl around an object, tightening around it in order to grip the object.",
+      "text": "In some applications, the end-effector performs a grasping or gripping function. One class of gripping end-effectors uses a set of individual prehensile mechanical fingers which curl around an object, tightening around it in order to grip the object."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 579.2594,
+            "r": 566.4000000000001,
+            "b": 530.7819000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            268
+          ]
+        }
+      ],
+      "orig": "A mechanically simpler gripping action can be obtained by employing an attractive force, such as a magnetic or electric field or fluid suction. However, some objects to be grasped are bulky and/or offer no obvious flat space against which to exert an attractive force.",
+      "text": "A mechanically simpler gripping action can be obtained by employing an attractive force, such as a magnetic or electric field or fluid suction. However, some objects to be grasped are bulky and/or offer no obvious flat space against which to exert an attractive force."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 523.2594,
+            "r": 566.4000000000002,
+            "b": 464.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            350
+          ]
+        }
+      ],
+      "orig": "According to the present invention, the end-effector 100 as shown in FIGS. 2 and 3 comprises a plurality of parallel, independently sliding or adjustable elongate members, hereinafter pins 120. Each pin 120 is movable in an axial direction independent of the other pins 120 and is individually capable of exerting an attractive force on an object 50.",
+      "text": "According to the present invention, the end-effector 100 as shown in FIGS. 2 and 3 comprises a plurality of parallel, independently sliding or adjustable elongate members, hereinafter pins 120. Each pin 120 is movable in an axial direction independent of the other pins 120 and is individually capable of exerting an attractive force on an object 50."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 457.0594,
+            "r": 566.4000010000002,
+            "b": 408.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            262
+          ]
+        }
+      ],
+      "orig": "The constraining plates 110 each have a plurality of holes 119 through which the pins 120 are freely slidable. The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119.",
+      "text": "The constraining plates 110 each have a plurality of holes 119 through which the pins 120 are freely slidable. The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 401.0594,
+            "r": 566.4000000000002,
+            "b": 352.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "Locking is accomplished by translation and/or rotation of the constraining plates 110 by plate translating/rotating devices 112, attached to a main body 102 of the end-effector 100 by an attaching member 104. Such an actuator is preferably controlled by a control unit 160.",
+      "text": "Locking is accomplished by translation and/or rotation of the constraining plates 110 by plate translating/rotating devices 112, attached to a main body 102 of the end-effector 100 by an attaching member 104. Such an actuator is preferably controlled by a control unit 160."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 343.86199999999997,
+            "r": 500.00999999999993,
+            "b": 335.537,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "BRIEF DESCRIPTION OF THE DRAWINGS",
+      "text": "BRIEF DESCRIPTION OF THE DRAWINGS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 330.0594,
+            "r": 566.4000040000001,
+            "b": 220.78189999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            505
+          ]
+        }
+      ],
+      "orig": "FIG. 1 shows a perspective cross section of a basic structure of a prior art pin and plate structure interacting with an object. FIG. 2 shows a perspective cross section of an apparatus of the present invention and a pin locking mechanism of the present invention in an unlocked configuration. FIG. 3 shows a perspective cross section of the apparatus in a locked configuration. FIG. 4 shows a release mechanism of the present invention. FIG. 11 shows a control unit 160 usable with the present invention.",
+      "text": "FIG. 1 shows a perspective cross section of a basic structure of a prior art pin and plate structure interacting with an object. FIG. 2 shows a perspective cross section of an apparatus of the present invention and a pin locking mechanism of the present invention in an unlocked configuration. FIG. 3 shows a perspective cross section of the apparatus in a locked configuration. FIG. 4 shows a release mechanism of the present invention. FIG. 11 shows a control unit 160 usable with the present invention."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 212.062,
+            "r": 355.497,
+            "b": 203.73699999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "CLAIMS",
+      "text": "CLAIMS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 198.25940000000003,
+            "r": 390.1805,
+            "b": 190.58190000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "What is claimed is:",
+      "text": "What is claimed is:"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 183.05939999999998,
+            "r": 566.4000040000001,
+            "b": 83.58190000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            550
+          ]
+        }
+      ],
+      "orig": "1. A robotic gripping apparatus, comprising: at least two constraining plates 110 arranged in parallel one on top of another with a space therebetween, each of the at least two constraining plates having a plurality of holes 119 formed therethrough such that respective ones of the holes formed in each of the at least two constraining plates are aligned with each other; and a plurality of elongate pins 120, each pin extending through a respective one of the aligned holes and independently movable in an axial direction relative to the other pins.",
+      "text": "A robotic gripping apparatus, comprising: at least two constraining plates 110 arranged in parallel one on top of another with a space therebetween, each of the at least two constraining plates having a plurality of holes 119 formed therethrough such that respective ones of the holes formed in each of the at least two constraining plates are aligned with each other; and a plurality of elongate pins 120, each pin extending through a respective one of the aligned holes and independently movable in an axial direction relative to the other pins.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 74.05939999999998,
+            "r": 566.4000000000001,
+            "b": 56.18190000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "2. The gripping apparatus of claim 1, wherein at least one of the at least two constraining plates 110 is movable by a plate",
+      "text": "The gripping apparatus of claim 1, wherein at least one of the at least two constraining plates 110 is movable by a plate",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.6,
+            "t": 706.8594,
+            "r": 291.0000040000002,
+            "b": 613.7819000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            446
+          ]
+        }
+      ],
+      "orig": "translating/rotating device 112 to lock the pins 120 in position. 3. The gripping apparatus of claim 1, further comprising a control unit 160 configured to modulate a force applied to the pins 120 by a positioning member 131 according to the shape of an object 50 to be gripped. 4. The gripping apparatus of claim 1, wherein a distal end 129 of each pin 120 comprises an electromagnet 120a energized by a wire 125a wound around the electromagnet.",
+      "text": "translating/rotating device 112 to lock the pins 120 in position. 3. The gripping apparatus of claim 1, further comprising a control unit 160 configured to modulate a force applied to the pins 120 by a positioning member 131 according to the shape of an object 50 to be gripped. 4. The gripping apparatus of claim 1, wherein a distal end 129 of each pin 120 comprises an electromagnet 120a energized by a wire 125a wound around the electromagnet.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.6,
+            "t": 604.2594,
+            "r": 291.00000100000017,
+            "b": 576.1819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": "5. The gripping apparatus of claim 1, wherein a distal end 129 of each pin 120 comprises a tube 120c coupled to a fluid suction source 127c for exerting an attractive force on the object 50.",
+      "text": "The gripping apparatus of claim 1, wherein a distal end 129 of each pin 120 comprises a tube 120c coupled to a fluid suction source 127c for exerting an attractive force on the object 50.",
+      "enumerated": true,
+      "marker": "5."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "meta": {
+        "description": {
+          "created_by": "gpt-5-nano",
+          "text": "FIG. 2: End-effector 100 is connected to pin 120 by a vertical line.\nFIG. 2: Left constraining plate 110 is connected to plate translating/ rotating device 112.\nFIG. 2: Plate translating/ rotating device 112 is driven by constraining plate 110.\nFIG. 2: Right constraining plate 110 is connected to control unit 160.\nFIG. 2: Control unit 160 is connected to constraining plate 110 on the right.\nFIG. 2: Pin 120 is the central component connected to the end-effector 100.\nFIG. 2: There are two constraining plates both labeled 110 in the figure.\nFIG. 2: 50 \u2014 object is written under the pin."
+        }
+      },
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 19.092243194580078,
+            "t": 451.6341552734375,
+            "r": 320.4646301269531,
+            "b": 262.1397705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    }
+  }
+}

@@ -1,0 +1,3413 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "EV-BMS-100_design_document",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 13217747269854603966,
+    "filename": "EV-BMS-100_design_document.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.458,
+            "t": 723.324,
+            "r": 484.54200000000003,
+            "b": 706.674,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "EV-BMS-100 Battery Management System",
+      "text": "EV-BMS-100 Battery Management System",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.6,
+            "t": 697.721,
+            "r": 401.40099999999995,
+            "b": 688.9335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "Design Document \u00b7 Rev. C \u00b7 Ayr Powertrain Systems \u00b7 Doc. No. DD-BMS-100-C",
+      "text": "Design Document \u00b7 Rev. C \u00b7 Ayr Powertrain Systems \u00b7 Doc. No. DD-BMS-100-C"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.6,
+            "t": 668.452,
+            "r": 141.426,
+            "b": 655.502,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "1. Overview",
+      "text": "1. Overview",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.6,
+            "t": 645.5799999999999,
+            "r": 548.4000049999997,
+            "b": 595.8299999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            380
+          ]
+        }
+      ],
+      "orig": "The EV-BMS-100 is a 96S lithium-ion battery management system for light commercial electric vehicle packs. It provides cell-level voltage and temperature monitoring, passive balancing, contactor control, and a CAN 2.0B interface to the vehicle ECU. The BMS MCU implements over-voltage, under-voltage, over-current, and over-temperature protection independently of the vehicle ECU.",
+      "text": "The EV-BMS-100 is a 96S lithium-ion battery management system for light commercial electric vehicle packs. It provides cell-level voltage and temperature monitoring, passive balancing, contactor control, and a CAN 2.0B interface to the vehicle ECU. The BMS MCU implements over-voltage, under-voltage, over-current, and over-temperature protection independently of the vehicle ECU."
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.6,
+            "t": 576.452,
+            "r": 215.318,
+            "b": 563.502,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "2. System Architecture",
+      "text": "2. System Architecture",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 211.33333333333334,
+            "t": 543.6666666666666,
+            "r": 400.66666666666663,
+            "b": 535.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "Figure 1 \u2014 BMS System Block Diagram",
+      "text": "Figure 1 \u2014 BMS System Block Diagram"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 140.33333333333334,
+            "t": 482.3333333333333,
+            "r": 165.33333333333334,
+            "b": 475.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Battery",
+      "text": "Battery"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 168.33333333333334,
+            "t": 482.6666666666667,
+            "r": 184.0,
+            "b": 477.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Pack",
+      "text": "Pack"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 144.33333333333334,
+            "t": 474.3333333333333,
+            "r": 159.33333333333334,
+            "b": 467.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "(96S",
+      "text": "(96S"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 162.33333333333334,
+            "t": 474.3333333333333,
+            "r": 179.66666666666669,
+            "b": 467.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "cells)",
+      "text": "cells)"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 240.33333333333334,
+            "t": 482.6666666666667,
+            "r": 252.33333333333334,
+            "b": 477.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Cell",
+      "text": "Cell"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 255.33333333333334,
+            "t": 482.6666666666667,
+            "r": 281.0,
+            "b": 475.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Voltage",
+      "text": "Voltage"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 284.0,
+            "t": 482.3333333333333,
+            "r": 288.66666666666663,
+            "b": 477.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "&",
+      "text": "&"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 230.66666666666669,
+            "t": 474.6666666666667,
+            "r": 269.0,
+            "b": 469.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Thermistor",
+      "text": "Thermistor"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 272.0,
+            "t": 474.6666666666667,
+            "r": 298.0,
+            "b": 469.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Monitor",
+      "text": "Monitor"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 350.66666666666663,
+            "t": 482.3333333333333,
+            "r": 365.0,
+            "b": 477.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "BMS",
+      "text": "BMS"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 368.3333333333333,
+            "t": 482.3333333333333,
+            "r": 383.0,
+            "b": 477.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "MCU",
+      "text": "MCU"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 345.33333333333337,
+            "t": 474.6666666666667,
+            "r": 368.6666666666667,
+            "b": 467.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "(safety",
+      "text": "(safety"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 371.6666666666667,
+            "t": 474.6666666666667,
+            "r": 388.6666666666667,
+            "b": 468.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "core)",
+      "text": "core)"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 426.0,
+            "t": 479.0,
+            "r": 430.0,
+            "b": 475.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "Ww",
+      "text": "Ww"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 432.0,
+            "t": 479.0,
+            "r": 444.6666666666667,
+            "b": 475.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2.08",
+      "text": "2.08"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 449.6666666666667,
+            "t": 482.3333333333333,
+            "r": 464.6666666666667,
+            "b": 473.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "CAN",
+      "text": "CAN"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 436.6666666666667,
+            "t": 474.3333333333333,
+            "r": 476.6666666666667,
+            "b": 469.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Transceiver",
+      "text": "Transceiver"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 239.66666666666669,
+            "t": 405.6666666666667,
+            "r": 251.66666666666666,
+            "b": 400.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "Cell",
+      "text": "Cell"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 255.33333333333334,
+            "t": 405.6666666666667,
+            "r": 288.66666666666663,
+            "b": 399.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Balancing",
+      "text": "Balancing"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 253.33333333333334,
+            "t": 397.6666666666667,
+            "r": 275.33333333333337,
+            "b": 392.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Circuit",
+      "text": "Circuit"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 350.0,
+            "t": 405.6666666666667,
+            "r": 384.0,
+            "b": 400.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Contactor",
+      "text": "Contactor"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 356.66666666666663,
+            "t": 397.6666666666667,
+            "r": 377.3333333333333,
+            "b": 392.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Driver",
+      "text": "Driver"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 444.0,
+            "t": 405.6666666666667,
+            "r": 468.3333333333333,
+            "b": 400.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Vehicle",
+      "text": "Vehicle"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 450.0,
+            "t": 397.6666666666667,
+            "r": 463.0,
+            "b": 392.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "ECU",
+      "text": "ECU"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.42625,
+            "t": 323.20300000000003,
+            "r": 544.5737499999999,
+            "b": 303.3405,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "Figure 1 - BMS system block diagram showing the monitoring, balancing, and communication paths between the battery pack and the vehicle ECU.",
+      "text": "Figure 1 - BMS system block diagram showing the monitoring, balancing, and communication paths between the battery pack and the vehicle ECU."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.6,
+            "t": 284.78,
+            "r": 548.3999989999999,
+            "b": 248.52999999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            311
+          ]
+        }
+      ],
+      "orig": "The Cell Voltage & Thermistor Monitor samples all 96 cell taps and 12 thermistor channels at 10 Hz and reports results to the BMS MCU over an isolated SPI link. The BMS MCU runs the safety state machine and issues balancing commands to the Cell Balancing Circuit and open/close commands to the Contactor Driver.",
+      "text": "The Cell Voltage & Thermistor Monitor samples all 96 cell taps and 12 thermistor channels at 10 Hz and reports results to the BMS MCU over an isolated SPI link. The BMS MCU runs the safety state machine and issues balancing commands to the Cell Balancing Circuit and open/close commands to the Contactor Driver."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 63.6,
+            "t": 724.452,
+            "r": 240.238,
+            "b": 711.502,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "3. Electrical Specifications",
+      "text": "3. Electrical Specifications",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 63.6,
+            "t": 430.452,
+            "r": 253.45399999999998,
+            "b": 417.50199999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "4. Mechanical Specifications",
+      "text": "4. Mechanical Specifications",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 225.66666666666666,
+            "t": 275.33333333333337,
+            "r": 386.33333333333337,
+            "b": 267.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Figure 2 \u2014 BMS Enclosure (rendering)",
+      "text": "Figure 2 \u2014 BMS Enclosure (rendering)"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 267.3333333333333,
+            "t": 145.33333333333337,
+            "r": 278.0,
+            "b": 141.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "M12",
+      "text": "M12"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 280.6666666666667,
+            "t": 145.0,
+            "r": 308.0,
+            "b": 141.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "connector",
+      "text": "connector"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 310.0,
+            "t": 145.33333333333337,
+            "r": 316.0,
+            "b": 141.33333333333337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "x4",
+      "text": "x4"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 75.463,
+            "t": 726.0029999999999,
+            "r": 536.5369999999998,
+            "b": 718.1405,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "Figure 2 - BMS enclosure rendering showing the four M12 connector ports (pack sense, power, CAN, and auxiliary 12 V).",
+      "text": "Figure 2 - BMS enclosure rendering showing the four M12 connector ports (pack sense, power, CAN, and auxiliary 12 V)."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.6,
+            "t": 698.452,
+            "r": 204.398,
+            "b": 685.502,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "5. Known Limitations",
+      "text": "5. Known Limitations",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.6,
+            "t": 675.5799999999999,
+            "r": 548.4000059999998,
+            "b": 639.3299999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            281
+          ]
+        }
+      ],
+      "orig": "The current hardware revision (Rev. C) does not support active balancing; balancing energy is dissipated as heat across bleed resistors. A future Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%.",
+      "text": "The current hardware revision (Rev. C) does not support active balancing; balancing energy is dissipated as heat across bleed resistors. A future Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "meta": {
+        "description": {
+          "created_by": "gpt-5-nano",
+          "text": "Figure 1: Battery Pack (96S cells) feeds the Cell Voltage & Thermistor Monitor.\nFigure 1: Cell Voltage & Thermistor Monitor is connected to the Battery Pack, to the BMS MCU, and to the Cell Balancing Circuit.\nFigure 1: BMS MCU (safety core) receives input from the Cell Voltage & Thermistor Monitor and drives the CAN Transceiver and the Contactor Driver.\nFigure 1: CAN Transceiver is driven by the BMS MCU and handles CAN 2.0B communication.\nFigure 1: Cell Balancing Circuit is driven by the Cell Voltage & Thermistor Monitor.\nFigure 1: Contactor Driver is driven by the BMS MCU and controls the Vehicle ECU.\nFigure 1: Vehicle ECU is the downstream device controlled by the Contactor Driver.\nFigure 1: CAN 2.0B indicates the CAN bus protocol used by the transceiver."
+        }
+      },
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 121.12342834472656,
+            "t": 498.2835998535156,
+            "r": 490.5860595703125,
+            "b": 376.02423095703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "meta": {
+        "description": {
+          "created_by": "gpt-5-nano",
+          "text": "Figure 2: Component M12 connector x4 is shown on the front face of the rectangular block as four circular ports.\nFigure 2: The four ports correspond to four M12 connectors as indicated by the label M12 connector x4.\nFigure 2: There are no arrows or other connections depicted in the figure.\nFigure 2: The connectors are arranged in a horizontal row across the front face of the block."
+        }
+      },
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 203.13844299316406,
+            "t": 249.419677734375,
+            "r": 410.0751647949219,
+            "b": 124.8978271484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 95.63309478759766,
+            "t": 705.5051116943359,
+            "r": 519.8155517578125,
+            "b": 461.335205078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 95.13800000000003,
+              "r": 147.219,
+              "b": 103.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Parameter",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 95.13800000000003,
+              "r": 314.412,
+              "b": 103.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Value",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 95.13800000000003,
+              "r": 430.60200000000003,
+              "b": 103.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Notes",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 117.13800000000003,
+              "r": 189.231,
+              "b": 125.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Nominal pack voltage",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 117.13800000000003,
+              "r": 321.42299999999994,
+              "b": 125.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "355.2 V",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 117.13800000000003,
+              "r": 508.65000000000015,
+              "b": 125.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "96S1P, 3.7 V/cell nominal",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 139.13800000000003,
+              "r": 180.726,
+              "b": 147.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Max charge current",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 139.13800000000003,
+              "r": 313.917,
+              "b": 147.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "120 A",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 139.13800000000003,
+              "r": 510.16200000000026,
+              "b": 147.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "continuous, 150 A for 30 s",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 161.13800000000003,
+              "r": 192.228,
+              "b": 169.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Max discharge current",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 161.13800000000003,
+              "r": 313.917,
+              "b": 169.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "320 A",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 161.13800000000003,
+              "r": 510.16200000000026,
+              "b": 169.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "continuous, 450 A for 10 s",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 183.13800000000003,
+              "r": 190.23000000000002,
+              "b": 191.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Cell balancing current",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 183.13800000000003,
+              "r": 321.41399999999993,
+              "b": 191.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "150 mA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 183.13800000000003,
+              "r": 470.1210000000001,
+              "b": 191.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "passive, per cell",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 205.13800000000003,
+              "r": 191.23800000000003,
+              "b": 213.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Overvoltage threshold",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 205.13800000000003,
+              "r": 332.421,
+              "b": 213.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "4.25 V/cell",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 205.13800000000003,
+              "r": 456.1260000000001,
+              "b": 213.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "latching fault",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 227.13800000000003,
+              "r": 196.24200000000002,
+              "b": 235.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Undervoltage threshold",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 227.13800000000003,
+              "r": 332.421,
+              "b": 235.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "2.80 V/cell",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 227.13800000000003,
+              "r": 456.1260000000001,
+              "b": 235.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "latching fault",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 249.13800000000003,
+              "r": 168.234,
+              "b": 257.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Isolation voltage",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 246.51,
+              "r": 336.85799999999995,
+              "b": 258.2370000000001,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "\u2265 500 V DC",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 249.13800000000003,
+              "r": 468.1140000000001,
+              "b": 257.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "pack-to-chassis",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 271.13800000000003,
+              "r": 204.23400000000004,
+              "b": 279.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Quiescent current (sleep)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 271.13800000000003,
+              "r": 319.164,
+              "b": 279.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "< 2 mA",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 271.13800000000003,
+              "r": 522.1590000000003,
+              "b": 279.46299999999997,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "measured at 12 V aux supply",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 293.13800000000003,
+              "r": 200.22899999999998,
+              "b": 301.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Communication protocol",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 293.13800000000003,
+              "r": 371.94,
+              "b": 301.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "CAN 2.0B, 500 kbps",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 293.13800000000003,
+              "r": 478.12200000000007,
+              "b": 301.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "J1939-style PGNs",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 315.13800000000003,
+              "r": 219.25500000000005,
+              "b": 323.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Operating temperature range",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 315.13800000000003,
+              "r": 352.923,
+              "b": 323.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "-30 \u00b0C to 65 \u00b0C",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 315.13800000000003,
+              "r": 519.6480000000004,
+              "b": 323.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "ambient, enclosure-mounted",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 11,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 95.13800000000003,
+                "r": 147.219,
+                "b": 103.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Parameter",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 95.13800000000003,
+                "r": 314.412,
+                "b": 103.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Value",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 95.13800000000003,
+                "r": 430.60200000000003,
+                "b": 103.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Notes",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 117.13800000000003,
+                "r": 189.231,
+                "b": 125.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Nominal pack voltage",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 117.13800000000003,
+                "r": 321.42299999999994,
+                "b": 125.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "355.2 V",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 117.13800000000003,
+                "r": 508.65000000000015,
+                "b": 125.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "96S1P, 3.7 V/cell nominal",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 139.13800000000003,
+                "r": 180.726,
+                "b": 147.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Max charge current",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 139.13800000000003,
+                "r": 313.917,
+                "b": 147.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "120 A",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 139.13800000000003,
+                "r": 510.16200000000026,
+                "b": 147.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "continuous, 150 A for 30 s",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 161.13800000000003,
+                "r": 192.228,
+                "b": 169.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Max discharge current",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 161.13800000000003,
+                "r": 313.917,
+                "b": 169.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "320 A",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 161.13800000000003,
+                "r": 510.16200000000026,
+                "b": 169.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "continuous, 450 A for 10 s",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 183.13800000000003,
+                "r": 190.23000000000002,
+                "b": 191.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cell balancing current",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 183.13800000000003,
+                "r": 321.41399999999993,
+                "b": 191.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "150 mA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 183.13800000000003,
+                "r": 470.1210000000001,
+                "b": 191.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "passive, per cell",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 205.13800000000003,
+                "r": 191.23800000000003,
+                "b": 213.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Overvoltage threshold",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 205.13800000000003,
+                "r": 332.421,
+                "b": 213.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4.25 V/cell",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 205.13800000000003,
+                "r": 456.1260000000001,
+                "b": 213.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "latching fault",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 227.13800000000003,
+                "r": 196.24200000000002,
+                "b": 235.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Undervoltage threshold",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 227.13800000000003,
+                "r": 332.421,
+                "b": 235.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2.80 V/cell",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 227.13800000000003,
+                "r": 456.1260000000001,
+                "b": 235.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "latching fault",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 249.13800000000003,
+                "r": 168.234,
+                "b": 257.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Isolation voltage",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 246.51,
+                "r": 336.85799999999995,
+                "b": 258.2370000000001,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "\u2265 500 V DC",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 249.13800000000003,
+                "r": 468.1140000000001,
+                "b": 257.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "pack-to-chassis",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 271.13800000000003,
+                "r": 204.23400000000004,
+                "b": 279.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Quiescent current (sleep)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 271.13800000000003,
+                "r": 319.164,
+                "b": 279.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "< 2 mA",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 271.13800000000003,
+                "r": 522.1590000000003,
+                "b": 279.46299999999997,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "measured at 12 V aux supply",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 293.13800000000003,
+                "r": 200.22899999999998,
+                "b": 301.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Communication protocol",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 293.13800000000003,
+                "r": 371.94,
+                "b": 301.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "CAN 2.0B, 500 kbps",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 293.13800000000003,
+                "r": 478.12200000000007,
+                "b": 301.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "J1939-style PGNs",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 315.13800000000003,
+                "r": 219.25500000000005,
+                "b": 323.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Operating temperature range",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 315.13800000000003,
+                "r": 352.923,
+                "b": 323.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "-30 \u00b0C to 65 \u00b0C",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 315.13800000000003,
+                "r": 519.6480000000004,
+                "b": 323.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "ambient, enclosure-mounted",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 95.6061782836914,
+            "t": 411.7276611328125,
+            "r": 515.8731079101562,
+            "b": 299.4437561035156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 389.13800000000003,
+              "r": 147.219,
+              "b": 397.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Parameter",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 389.13800000000003,
+              "r": 314.412,
+              "b": 397.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Value",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 389.13800000000003,
+              "r": 430.60200000000003,
+              "b": 397.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Notes",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 411.13800000000003,
+              "r": 191.229,
+              "b": 419.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Enclosure dimensions",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 411.13800000000003,
+              "r": 366.936,
+              "b": 419.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "280 x 210 x 65 mm",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 411.13800000000003,
+              "r": 444.606,
+              "b": 419.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "L x W x H",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 433.13800000000003,
+              "r": 131.208,
+              "b": 441.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Weight",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 433.13800000000003,
+              "r": 314.916,
+              "b": 441.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "2.4 kg",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 433.13800000000003,
+              "r": 478.13100000000014,
+              "b": 441.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "excluding harness",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 455.13800000000003,
+              "r": 174.73200000000003,
+              "b": 463.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Ingress protection",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 455.13800000000003,
+              "r": 308.91299999999995,
+              "b": 463.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "IP67",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 455.13800000000003,
+              "r": 477.1320000000002,
+              "b": 463.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "connectors mated",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 103.2,
+              "t": 477.13800000000003,
+              "r": 140.21699999999998,
+              "b": 485.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Mounting",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 290.4,
+              "t": 477.13800000000003,
+              "r": 381.93899999999996,
+              "b": 485.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "4x M6 threaded inserts",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 405.59999999999997,
+              "t": 477.13800000000003,
+              "r": 493.14300000000026,
+              "b": 485.463,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "150 x 100 mm pattern",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 5,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 389.13800000000003,
+                "r": 147.219,
+                "b": 397.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Parameter",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 389.13800000000003,
+                "r": 314.412,
+                "b": 397.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Value",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 389.13800000000003,
+                "r": 430.60200000000003,
+                "b": 397.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Notes",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 411.13800000000003,
+                "r": 191.229,
+                "b": 419.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Enclosure dimensions",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 411.13800000000003,
+                "r": 366.936,
+                "b": 419.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "280 x 210 x 65 mm",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 411.13800000000003,
+                "r": 444.606,
+                "b": 419.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "L x W x H",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 433.13800000000003,
+                "r": 131.208,
+                "b": 441.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Weight",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 433.13800000000003,
+                "r": 314.916,
+                "b": 441.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2.4 kg",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 433.13800000000003,
+                "r": 478.13100000000014,
+                "b": 441.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "excluding harness",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 455.13800000000003,
+                "r": 174.73200000000003,
+                "b": 463.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Ingress protection",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 455.13800000000003,
+                "r": 308.91299999999995,
+                "b": 463.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "IP67",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 455.13800000000003,
+                "r": 477.1320000000002,
+                "b": 463.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "connectors mated",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 103.2,
+                "t": 477.13800000000003,
+                "r": 140.21699999999998,
+                "b": 485.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Mounting",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 290.4,
+                "t": 477.13800000000003,
+                "r": 381.93899999999996,
+                "b": 485.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "4x M6 threaded inserts",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 405.59999999999997,
+                "t": 477.13800000000003,
+                "r": 493.14300000000026,
+                "b": 485.463,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "150 x 100 mm pattern",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 3
+    }
+  }
+}

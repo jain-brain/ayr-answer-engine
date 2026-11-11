@@ -1,0 +1,10 @@
+# secrets
+.env
+
+# environment and caches
+.venv/
+__pycache__/
+.DS_Store
+
+# the exercise package, if placed inside the repo
+swe-coding-exercise/

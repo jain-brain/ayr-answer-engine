@@ -1,0 +1,10 @@
+doc,page,figure,found,figure number right,docling caption right,numerals read,numerals missed
+EV-BMS-100_design_document,1,Figure 1,True,True,False,,
+EV-BMS-100_design_document,2,Figure 2,True,True,False,,
+Falcon-VT1_flight_controller_design_document,1,Figure 1,True,True,True,,
+RJA-40_actuator_design_document,1,Figure 1,True,True,True,,
+RJA-40_actuator_design_document,2,Figure 2,True,False,True,,
+US20170320570A1_uav_vtol,1,FIG. 3,True,True,False,9/9,
+US2988237A_programmed_article_transfer,1,FIG. 2,True,True,True,7/7,
+US5481460A_ev_controller,1,FIG. 1,True,True,False,6/6,
+US8485576B2_robotic_gripper,1,FIG. 2,True,True,False,6/6,

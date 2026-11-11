@@ -1,0 +1,233 @@
+[
+ {
+  "id": "q01",
+  "answer": "An electromagnet (electromagnet 120a energized by a wire 125a wound around the electromagnet) provides the attractive force at the tip of pin 120.",
+  "citations": [
+   {
+    "doc": "US8485576B2_robotic_gripper.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q02",
+  "answer": "the function control anticipator 64.",
+  "citations": [
+   {
+    "doc": "US2988237A_programmed_article_transfer.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q03",
+  "answer": "three or more microprocessors.",
+  "citations": [
+   {
+    "doc": "US5481460A_ev_controller.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q04",
+  "answer": "Three batteries in total; two are located in the left and right wings, and the third is located in the fuselage.",
+  "citations": [
+   {
+    "doc": "US20170320570A1_uav_vtol.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q05",
+  "answer": "Inductively recharged via wireless power transfer (WPT) circuitry.",
+  "citations": [
+   {
+    "doc": "US20170320570A1_uav_vtol.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q06",
+  "answer": "The maximum discharge current rating is 450 A for 10 s (continuous rating: 320 A).",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q07",
+  "answer": "IP67",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q08",
+  "answer": "CAN 2.0B, 500 kbps.",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q09",
+  "answer": "60 A",
+  "citations": [
+   {
+    "doc": "Falcon-VT1_flight_controller_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q10",
+  "answer": "The operating temperature range is -20 °C to 55 °C.",
+  "citations": [
+   {
+    "doc": "Falcon-VT1_flight_controller_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q11",
+  "answer": "Backlash < 3 arcmin, measured at output flange.",
+  "citations": [
+   {
+    "doc": "RJA-40_actuator_design_document.docx",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q12",
+  "answer": "Rated continuous torque is 40 N·m; peak torque is 120 N·m (1 s max).",
+  "citations": [
+   {
+    "doc": "RJA-40_actuator_design_document.docx",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q13",
+  "answer": "control unit",
+  "citations": [
+   {
+    "doc": "US8485576B2_robotic_gripper.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q14",
+  "answer": "Component 112 is a gate.",
+  "citations": [
+   {
+    "doc": "US2988237A_programmed_article_transfer.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q15",
+  "answer": "Left thrust device.",
+  "citations": [
+   {
+    "doc": "US20170320570A1_uav_vtol.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q16",
+  "answer": "4",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 3
+   },
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q17",
+  "answer": "7",
+  "citations": [
+   {
+    "doc": "test_log.csv",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q18",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "q19",
+  "answer": "RJA-GEAR-101 has the highest unit cost at 315.75 USD.",
+  "citations": [
+   {
+    "doc": "bill_of_materials.xlsx",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q20",
+  "answer": "180.0",
+  "citations": [
+   {
+    "doc": "bill_of_materials.xlsx",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "q21",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "q22",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ }
+]

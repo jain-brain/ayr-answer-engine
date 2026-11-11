@@ -1,0 +1,1400 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "US5481460A_ev_controller",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 12926101742802388108,
+    "filename": "US5481460A_ev_controller.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/groups/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.02600000000001,
+            "t": 706.662,
+            "r": 209.574,
+            "b": 698.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "United States Patent",
+      "text": "United States Patent"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 73.3285,
+            "t": 683.534,
+            "r": 263.2715,
+            "b": 655.509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "CONTROLLER FOR ELECTRIC VEHICLE",
+      "text": "CONTROLLER FOR ELECTRIC VEHICLE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.98499999999999,
+            "t": 650.662,
+            "r": 285.61500000000007,
+            "b": 594.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "Assignee: Aisin AW Co., Ltd. (exercise adaptation), Anjo, Japan Filed: Mar. 15, 1994 Serial No.: 08/213,556 Patent No.: 5,481,460 Date of Patent: Jan. 2, 1996 12 Claims Classification: B60L 15/20 (2006.01); 318/587",
+      "text": "Assignee: Aisin AW Co., Ltd. (exercise adaptation), Anjo, Japan Filed: Mar. 15, 1994 Serial No.: 08/213,556 Patent No.: 5,481,460 Date of Patent: Jan. 2, 1996 12 Claims Classification: B60L 15/20 (2006.01); 318/587"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 580.662,
+            "r": 95.091,
+            "b": 572.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 566.8594,
+            "r": 291.0000050000002,
+            "b": 487.7819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            489
+          ]
+        }
+      ],
+      "orig": "The present invention relates to a controller for an electric vehicle in which right and left drive wheels are respectively driven by drive motors which are individually provided. The controller comprises motors 20, 22 for driving right and left wheels, means for detecting rotating speeds or rotation torques of the wheels, and a facility for taking a rotation deviation between output signals from the detection means close to zero. As a result, the vehicle is always operated in safety.",
+      "text": "The present invention relates to a controller for an electric vehicle in which right and left drive wheels are respectively driven by drive motors which are individually provided. The controller comprises motors 20, 22 for driving right and left wheels, means for detecting rotating speeds or rotation torques of the wheels, and a facility for taking a rotation deviation between output signals from the detection means close to zero. As a result, the vehicle is always operated in safety."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 155.0,
+            "t": 471.33333333333337,
+            "r": 172.33333333333334,
+            "b": 465.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "FIG.",
+      "text": "FIG."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 177.0,
+            "t": 471.33333333333337,
+            "r": 181.66666666666666,
+            "b": 465.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 207.0,
+            "t": 452.66666666666663,
+            "r": 211.0,
+            "b": 447.66666666666663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "iy",
+      "text": "iy"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 155.0,
+            "t": 436.0,
+            "r": 182.0,
+            "b": 431.66666666666663,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "controller",
+      "text": "controller"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 140.33333333333331,
+            "t": 429.33333333333337,
+            "r": 145.0,
+            "b": 424.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "(3",
+      "text": "(3"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.0,
+            "t": 429.33333333333337,
+            "r": 196.33333333333334,
+            "b": 423.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "microprocessors)",
+      "text": "microprocessors)"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 109.66666666666667,
+            "t": 385.0,
+            "r": 113.66666666666667,
+            "b": 380.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "'0",
+      "text": "'0"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 55.333333333333336,
+            "t": 368.6666666666667,
+            "r": 64.0,
+            "b": 364.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "left",
+      "text": "left"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.33333333333334,
+            "t": 368.6666666666667,
+            "r": 80.33333333333334,
+            "b": 364.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "drive",
+      "text": "drive"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 254.66666666666666,
+            "t": 368.6666666666667,
+            "r": 267.33333333333337,
+            "b": 362.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "right",
+      "text": "right"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 269.66666666666663,
+            "t": 368.6666666666667,
+            "r": 283.6666666666667,
+            "b": 364.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "drive",
+      "text": "drive"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.333333333333336,
+            "t": 364.0,
+            "r": 76.0,
+            "b": 354.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "motor",
+      "text": "motor"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 261.0,
+            "t": 361.3333333333333,
+            "r": 277.3333333333333,
+            "b": 357.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "motor",
+      "text": "motor"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 109.66666666666667,
+            "t": 314.6666666666667,
+            "r": 113.66666666666667,
+            "b": 309.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 203.66666666666666,
+            "t": 314.6666666666667,
+            "r": 211.0,
+            "b": 309.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.0,
+            "t": 299.6666666666667,
+            "r": 62.666666666666664,
+            "b": 295.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "left",
+      "text": "left"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 65.0,
+            "t": 299.6666666666667,
+            "r": 81.33333333333334,
+            "b": 295.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "wheel",
+      "text": "wheel"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 158.33333333333334,
+            "t": 296.0,
+            "r": 169.0,
+            "b": 291.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "batt:",
+      "text": "batt:"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 253.33333333333334,
+            "t": 299.6666666666667,
+            "r": 266.33333333333337,
+            "b": 293.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "right",
+      "text": "right"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 268.33333333333337,
+            "t": 299.6666666666667,
+            "r": 284.6666666666667,
+            "b": 295.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "wheel",
+      "text": "wheel"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 48.66666666666667,
+            "t": 292.6666666666667,
+            "r": 65.33333333333334,
+            "b": 287.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "speed",
+      "text": "speed"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 68.0,
+            "t": 291.3333333333333,
+            "r": 86.66666666666667,
+            "b": 288.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "sensor",
+      "text": "sensor"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 161.66666666666666,
+            "t": 294.6666666666667,
+            "r": 178.33333333333334,
+            "b": 290.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "attery",
+      "text": "attery"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 250.0,
+            "t": 292.6666666666667,
+            "r": 266.66666666666663,
+            "b": 287.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "speed",
+      "text": "speed"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 269.33333333333337,
+            "t": 291.3333333333333,
+            "r": 288.0,
+            "b": 288.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "sensor",
+      "text": "sensor"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.0,
+            "t": 314.6666666666667,
+            "r": 314.6666666666667,
+            "b": 309.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "6",
+      "text": "6"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.480000000000004,
+            "t": 239.74400000000003,
+            "r": 280.12000000000006,
+            "b": 222.34400000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "FIG. 1 - Block diagram of the electric vehicle drive and control system.",
+      "text": "FIG. 1 - Block diagram of the electric vehicle drive and control system."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 383.9085,
+            "t": 706.662,
+            "r": 503.4915,
+            "b": 698.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "US 5,481,460 Jan. 2, 1996",
+      "text": "US 5,481,460 Jan. 2, 1996",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 684.662,
+            "r": 474.0,
+            "b": 676.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "BACKGROUND OF THE INVENTION",
+      "text": "BACKGROUND OF THE INVENTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 670.8594,
+            "r": 566.4000060000002,
+            "b": 464.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1146
+          ]
+        }
+      ],
+      "orig": "In general, an electric vehicle is designed in such a way that motors are rotated using a battery 40 as a power source to drive the wheels, thereby to make the vehicle travel. There is a type of electric vehicle in which a left wheel and a right wheel are driven by individual motors. When the left wheel and the right wheel are driven by individual motors 20, 22, it is possible to control the motors independently of each other so as to improve steering. However, when an abnormality occurs in the rotation of one motor, the vehicle may get into a state in which it is difficult to control, especially at high speed; in the most serious case, the vehicle spins. It is therefore a principal object of the present invention to provide an electric vehicle which is capable of travelling properly even when an abnormality occurs in the rotation of one of the left-wheel motor 20 or the right-wheel motor 22. The controller 30 for an electric vehicle is constructed by three or more microprocessors to monitor a run away state of the microprocessors mutually, so that a motor is not accelerated or decelerated abnormally if one microprocessor fails.",
+      "text": "In general, an electric vehicle is designed in such a way that motors are rotated using a battery 40 as a power source to drive the wheels, thereby to make the vehicle travel. There is a type of electric vehicle in which a left wheel and a right wheel are driven by individual motors. When the left wheel and the right wheel are driven by individual motors 20, 22, it is possible to control the motors independently of each other so as to improve steering. However, when an abnormality occurs in the rotation of one motor, the vehicle may get into a state in which it is difficult to control, especially at high speed; in the most serious case, the vehicle spins. It is therefore a principal object of the present invention to provide an electric vehicle which is capable of travelling properly even when an abnormality occurs in the rotation of one of the left-wheel motor 20 or the right-wheel motor 22. The controller 30 for an electric vehicle is constructed by three or more microprocessors to monitor a run away state of the microprocessors mutually, so that a motor is not accelerated or decelerated abnormally if one microprocessor fails."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 455.86199999999997,
+            "r": 500.00999999999993,
+            "b": 447.537,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "BRIEF DESCRIPTION OF THE DRAWINGS",
+      "text": "BRIEF DESCRIPTION OF THE DRAWINGS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 442.0594,
+            "r": 566.4000020000001,
+            "b": 342.9819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            428
+          ]
+        }
+      ],
+      "orig": "FIG. 1 is a block diagram showing the arrangement of a system. FIG. 2 is a block diagram showing the arrangement of the details of a controller 30. FIG. 3 is a flow chart illustrating a programming system showing the operation of a vehicle motion control circuit. FIG. 8 is a flow chart of a subroutine program showing the details of velocity limit calculation. FIG. 9 is a schematic view showing the velocity limit calculation.",
+      "text": "FIG. 1 is a block diagram showing the arrangement of a system. FIG. 2 is a block diagram showing the arrangement of the details of a controller 30. FIG. 3 is a flow chart illustrating a programming system showing the operation of a vehicle motion control circuit. FIG. 8 is a flow chart of a subroutine program showing the details of velocity limit calculation. FIG. 9 is a schematic view showing the velocity limit calculation."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 334.262,
+            "r": 355.497,
+            "b": 325.937,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "CLAIMS",
+      "text": "CLAIMS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 320.4594,
+            "r": 390.1805,
+            "b": 312.7819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "What is claimed is:",
+      "text": "What is claimed is:"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 305.2594,
+            "r": 566.4000040000002,
+            "b": 215.9819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            522
+          ]
+        }
+      ],
+      "orig": "1. A controller for an electric vehicle, comprising: a first motor 20 for driving a left wheel; a second motor 22 for driving a right wheel; first current supply means for supplying a current to the first motor; second current supply means for supplying a current to the second motor; and means for stopping the current supply from the first current supply means to the first motor and supplying a current from the second current supply means to the first motor when the first current supply means is in an abnormal state.",
+      "text": "A controller for an electric vehicle, comprising: a first motor 20 for driving a left wheel; a second motor 22 for driving a right wheel; first current supply means for supplying a current to the first motor; second current supply means for supplying a current to the second motor; and means for stopping the current supply from the first current supply means to the first motor and supplying a current from the second current supply means to the first motor when the first current supply means is in an abnormal state.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 206.45939999999996,
+            "r": 566.4000050000002,
+            "b": 157.9819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            284
+          ]
+        }
+      ],
+      "orig": "2. The controller of claim 1, further comprising means for calculating a limit current value with which the vehicle gets into a spinning state from a travelling state, and means for performing a control so that the first or second motor 20, 22 will not exceed the limit current value.",
+      "text": "The controller of claim 1, further comprising means for calculating a limit current value with which the vehicle gets into a spinning state from a travelling state, and means for performing a control so that the first or second motor 20, 22 will not exceed the limit current value.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 148.45939999999996,
+            "r": 566.4000020000002,
+            "b": 120.38189999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "3. The controller of claim 1, wherein the controller 30 is constructed by three or more microprocessors configured to monitor a run-away state of the microprocessors mutually.",
+      "text": "The controller of claim 1, wherein the controller 30 is constructed by three or more microprocessors configured to monitor a run-away state of the microprocessors mutually.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 110.85940000000005,
+            "r": 566.4000000000002,
+            "b": 72.58190000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            200
+          ]
+        }
+      ],
+      "orig": "4. The controller of claim 1, further comprising a wheel speed sensor 24, 26 coupled to each of the first and second motors 20, 22 for detecting a rotation deviation between the left and right wheels.",
+      "text": "The controller of claim 1, further comprising a wheel speed sensor 24, 26 coupled to each of the first and second motors 20, 22 for detecting a rotation deviation between the left and right wheels.",
+      "enumerated": true,
+      "marker": "4."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "meta": {
+        "description": {
+          "created_by": "gpt-5-nano",
+          "text": "FIG. 1: Component 30 is the controller. It sends control signals to left drive motor 20 and right drive motor 22.\nFIG. 1: Component 20 is the left drive motor. It is connected to left wheel speed sensor 24.\nFIG. 1: Component 22 is the right drive motor. It is connected to right wheel speed sensor 26.\nFIG. 1: Component 24 is the left wheel speed sensor.\nFIG. 1: Component 26 is the right wheel speed sensor.\nFIG. 1: Component 40 is the battery. It provides power to the controller 30.\nFIG. 1: Arrow from 30 to 20 indicates control signal to the left drive motor.\nFIG. 1: Arrow from 30 to 22 indicates control signal to the right drive motor.\nFIG. 1: Arrow from 20 to 24 indicates the left wheel speed sensor is driven by the left drive motor.\nFIG. 1: Arrow from 40 to 30 indicates power from the battery to the controller."
+        }
+      },
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 27.40914535522461,
+            "t": 474.58917236328125,
+            "r": 315.9366149902344,
+            "b": 274.61688232421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    }
+  }
+}

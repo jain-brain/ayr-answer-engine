@@ -1,0 +1,1640 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "US20170320570A1_uav_vtol",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 13034384839355508185,
+    "filename": "US20170320570A1_uav_vtol.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.02600000000001,
+            "t": 706.662,
+            "r": 209.574,
+            "b": 698.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "United States Patent",
+      "text": "United States Patent"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.5565,
+            "t": 683.5340000000001,
+            "r": 282.0435,
+            "b": 639.509,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "UNMANNED AERIAL VEHICLE (UAV) HAVING VERTICAL TAKEOFF AND LANDING (VTOL) CAPABILITY",
+      "text": "UNMANNED AERIAL VEHICLE (UAV) HAVING VERTICAL TAKEOFF AND LANDING (VTOL) CAPABILITY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 46.48500000000001,
+            "t": 634.662,
+            "r": 290.115,
+            "b": 578.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            230
+          ]
+        }
+      ],
+      "orig": "Applicant: Aerovel-type exercise adaptation, Vancouver, BC (CA) Filed: May 9, 2016 Serial No.: 15/150,102 Patent No.: US 2017/0320570 A1 Date of Patent: Nov. 9, 2017 (Pub.) 27 Claims Classification: B64C 29/00 (2006.01); 244/17.23",
+      "text": "Applicant: Aerovel-type exercise adaptation, Vancouver, BC (CA) Filed: May 9, 2016 Serial No.: 15/150,102 Patent No.: US 2017/0320570 A1 Date of Patent: Nov. 9, 2017 (Pub.) 27 Claims Classification: B64C 29/00 (2006.01); 244/17.23"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 564.662,
+            "r": 95.091,
+            "b": 556.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 550.8594,
+            "r": 291.00000500000016,
+            "b": 451.3819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            649
+          ]
+        }
+      ],
+      "orig": "An unmanned aerial vehicle (UAV), or drone, includes a fuselage 12, left and right airfoil-shaped wings 14, 16 connected to the fuselage to generate lift in forward flight, a left thrust-generating device 18 supported by the left wing, and a right thrust-generating device 20 supported by the right wing. The UAV further includes a vertical stabilizer, a top thrust-generating device 28 mounted to a top portion of the stabilizer, and a bottom thrust-generating device 34 mounted to a bottom portion. An onboard battery 38 powers the thrust-generating devices, enabling the UAV to transition between forward flight and vertical take-off and landing.",
+      "text": "An unmanned aerial vehicle (UAV), or drone, includes a fuselage 12, left and right airfoil-shaped wings 14, 16 connected to the fuselage to generate lift in forward flight, a left thrust-generating device 18 supported by the left wing, and a right thrust-generating device 20 supported by the right wing. The UAV further includes a vertical stabilizer, a top thrust-generating device 28 mounted to a top portion of the stabilizer, and a bottom thrust-generating device 34 mounted to a bottom portion. An onboard battery 38 powers the thrust-generating devices, enabling the UAV to transition between forward flight and vertical take-off and landing."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 154.66666666666666,
+            "t": 435.0,
+            "r": 172.33333333333334,
+            "b": 428.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "FIG.",
+      "text": "FIG."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 176.66666666666666,
+            "t": 435.0,
+            "r": 181.0,
+            "b": 428.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 62.0,
+            "t": 404.0,
+            "r": 70.66666666666666,
+            "b": 399.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "left",
+      "text": "left"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.66666666666666,
+            "t": 404.0,
+            "r": 85.66666666666667,
+            "b": 398.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "wing",
+      "text": "wing"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 156.0,
+            "t": 404.0,
+            "r": 179.66666666666666,
+            "b": 398.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "fuselage",
+      "text": "fuselage"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 248.0,
+            "t": 404.0,
+            "r": 261.0,
+            "b": 398.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "right",
+      "text": "right"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 263.0,
+            "t": 404.0,
+            "r": 276.0,
+            "b": 398.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "wing",
+      "text": "wing"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 36.33333333333333,
+            "t": 363.6666666666667,
+            "r": 54.333333333333336,
+            "b": 359.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "device",
+      "text": "device"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 75.0,
+            "t": 382.3333333333333,
+            "r": 78.66666666666667,
+            "b": 377.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 31.666666666666668,
+            "t": 370.3333333333333,
+            "r": 40.33333333333333,
+            "b": 365.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "left",
+      "text": "left"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.666666666666664,
+            "t": 370.3333333333333,
+            "r": 59.333333333333336,
+            "b": 365.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "thrust",
+      "text": "thrust"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 274.3333333333333,
+            "t": 370.3333333333333,
+            "r": 287.3333333333333,
+            "b": 364.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "right",
+      "text": "right"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 289.3333333333333,
+            "t": 370.3333333333333,
+            "r": 306.3333333333333,
+            "b": 365.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "thrust",
+      "text": "thrust"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 197.33333333333334,
+            "t": 361.0,
+            "r": 201.0,
+            "b": 356.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "8",
+      "text": "8"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 281.3333333333333,
+            "t": 363.6666666666667,
+            "r": 299.3333333333333,
+            "b": 359.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "device",
+      "text": "device"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 158.0,
+            "t": 344.0,
+            "r": 178.0,
+            "b": 338.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "battery",
+      "text": "battery"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 166.0,
+            "t": 326.3333333333333,
+            "r": 169.66666666666666,
+            "b": 314.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "|",
+      "text": "|"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 197.33333333333334,
+            "t": 318.0,
+            "r": 201.0,
+            "b": 312.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "os",
+      "text": "os"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 154.0,
+            "t": 304.3333333333333,
+            "r": 162.66666666666666,
+            "b": 298.6666666666667,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "top",
+      "text": "top"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 165.0,
+            "t": 304.6666666666667,
+            "r": 182.0,
+            "b": 300.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "thrust",
+      "text": "thrust"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 158.66666666666666,
+            "t": 297.6666666666667,
+            "r": 176.66666666666666,
+            "b": 293.3333333333333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "device",
+      "text": "device"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 166.0,
+            "t": 283.3333333333333,
+            "r": 169.66666666666666,
+            "b": 274.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "v",
+      "text": "v"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 197.33333333333334,
+            "t": 278.33333333333326,
+            "r": 201.33333333333334,
+            "b": 273.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "4",
+      "text": "4"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 237.0,
+            "t": 279.66666666666674,
+            "r": 262.0,
+            "b": 271.33333333333326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "autopilot",
+      "text": "autopilot"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 239.33333333333334,
+            "t": 271.66666666666674,
+            "r": 260.0,
+            "b": 267.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "module",
+      "text": "module"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.33333333333334,
+            "t": 264.66666666666674,
+            "r": 168.33333333333334,
+            "b": 260.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "bottom",
+      "text": "bottom"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 170.66666666666666,
+            "t": 264.66666666666674,
+            "r": 187.66666666666666,
+            "b": 260.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "thrust",
+      "text": "thrust"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 158.66666666666666,
+            "t": 257.66666666666674,
+            "r": 176.66666666666666,
+            "b": 253.33333333333326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "device",
+      "text": "device"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 45.6,
+            "t": 203.34400000000005,
+            "r": 291.000004,
+            "b": 185.94399999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "FIG. 3 - Bottom, partial cutaway view of the UAV showing battery 38 and autopilot module 46 placement.",
+      "text": "FIG. 3 - Bottom, partial cutaway view of the UAV showing battery 38 and autopilot module 46 placement."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 346.644,
+            "t": 706.662,
+            "r": 540.7560000000001,
+            "b": 698.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "US US 2017/0320570 A1 Nov. 9, 2017 (Pub.)",
+      "text": "US US 2017/0320570 A1 Nov. 9, 2017 (Pub.)"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 684.662,
+            "r": 474.0,
+            "b": 676.337,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "BACKGROUND OF THE INVENTION",
+      "text": "BACKGROUND OF THE INVENTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 670.8594,
+            "r": 566.4000020000002,
+            "b": 622.3819000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            253
+          ]
+        }
+      ],
+      "orig": "A variety of unmanned aerial vehicles, colloquially known as drones, have been developed for military, reconnaissance and recreational uses such as aerial photography. UAVs can be gas-powered or electrically powered and can be fixed-wing or rotary-wing.",
+      "text": "A variety of unmanned aerial vehicles, colloquially known as drones, have been developed for military, reconnaissance and recreational uses such as aerial photography. UAVs can be gas-powered or electrically powered and can be fixed-wing or rotary-wing."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 614.8594,
+            "r": 566.4000000000002,
+            "b": 556.1819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            342
+          ]
+        }
+      ],
+      "orig": "Reconnaissance UAVs are well suited to monitor or surveil remotely situated infrastructure such as oil or water pipelines, electric power lines, coastlines, farmland, borders, and forest fires. There is accordingly a need in the industry for improved unmanned aerial vehicles capable of performing extended, long-distance aerial surveillance.",
+      "text": "Reconnaissance UAVs are well suited to monitor or surveil remotely situated infrastructure such as oil or water pipelines, electric power lines, coastlines, farmland, borders, and forest fires. There is accordingly a need in the industry for improved unmanned aerial vehicles capable of performing extended, long-distance aerial surveillance."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 548.6594,
+            "r": 566.4000020000002,
+            "b": 510.3819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            253
+          ]
+        }
+      ],
+      "orig": "The UAV 10 includes a fuselage 12 which may be made of one or more composite materials, e.g. carbon fiber, fiberglass, or a suitable metal such as aluminum. The airframe also includes left and right airfoil-shaped wings 14, 16 connected to the fuselage.",
+      "text": "The UAV 10 includes a fuselage 12 which may be made of one or more composite materials, e.g. carbon fiber, fiberglass, or a suitable metal such as aluminum. The airframe also includes left and right airfoil-shaped wings 14, 16 connected to the fuselage."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 502.8594,
+            "r": 566.4000000000002,
+            "b": 464.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "The UAV has a left thrust-generating device 18 supported by the left wing 14 and a right thrust-generating device 20 supported by the right wing 16, mechanically coupled to left and right propellers 22, 24.",
+      "text": "The UAV has a left thrust-generating device 18 supported by the left wing 14 and a right thrust-generating device 20 supported by the right wing 16, mechanically coupled to left and right propellers 22, 24."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 457.0594,
+            "r": 566.4000040000002,
+            "b": 398.3819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            361
+          ]
+        }
+      ],
+      "orig": "The UAV has three batteries 38 symmetrically housed within the airframe: two batteries 38 are disposed within the left and right wings while a third battery 38 is disposed within the fuselage. The battery or batteries 38 may be inductively recharged via wireless power transfer (WPT) circuitry 40 while the UAV is in a tail-sitting position on a recharging pad.",
+      "text": "The UAV has three batteries 38 symmetrically housed within the airframe: two batteries 38 are disposed within the left and right wings while a third battery 38 is disposed within the fuselage. The battery or batteries 38 may be inductively recharged via wireless power transfer (WPT) circuitry 40 while the UAV is in a tail-sitting position on a recharging pad."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 390.8594,
+            "r": 566.4000000000002,
+            "b": 352.58189999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            233
+          ]
+        }
+      ],
+      "orig": "An autopilot module 46 (flight controller) generates control command signals for the thrust-generating devices and control surfaces to adjust pitch, yaw and roll to keep the UAV flying within predetermined flight-envelope parameters.",
+      "text": "An autopilot module 46 (flight controller) generates control command signals for the thrust-generating devices and control surfaces to adjust pitch, yaw and roll to keep the UAV flying within predetermined flight-envelope parameters."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 343.86199999999997,
+            "r": 500.00999999999993,
+            "b": 335.537,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "BRIEF DESCRIPTION OF THE DRAWINGS",
+      "text": "BRIEF DESCRIPTION OF THE DRAWINGS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 330.0594,
+            "r": 566.4000000000002,
+            "b": 235.9819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            392
+          ]
+        }
+      ],
+      "orig": "FIG. 1 is a perspective view of a UAV in accordance with an embodiment of the present invention. FIG. 2A is a top view of the UAV; FIG. 2B is a side view; FIG. 2C is a rear view. FIG. 3 is a bottom, partial cutaway view of the UAV showing the battery 38 and autopilot module 46 layout. FIG. 4 is a schematic depiction of the UAV taking off vertically and then transitioning to forward flight.",
+      "text": "FIG. 1 is a perspective view of a UAV in accordance with an embodiment of the present invention. FIG. 2A is a top view of the UAV; FIG. 2B is a side view; FIG. 2C is a rear view. FIG. 3 is a bottom, partial cutaway view of the UAV showing the battery 38 and autopilot module 46 layout. FIG. 4 is a schematic depiction of the UAV taking off vertically and then transitioning to forward flight."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 228.45939999999996,
+            "r": 549.8061000000001,
+            "b": 220.78189999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "FIG. 6 is a block diagram of electrical components of the UAV.",
+      "text": "FIG. 6 is a block diagram of electrical components of the UAV."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 212.062,
+            "r": 355.497,
+            "b": 203.73699999999997,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "CLAIMS",
+      "text": "CLAIMS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.0,
+            "t": 198.25940000000003,
+            "r": 390.1805,
+            "b": 190.58190000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "What is claimed is:",
+      "text": "What is claimed is:"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 183.05939999999998,
+            "r": 566.4000030000002,
+            "b": 83.58190000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            577
+          ]
+        }
+      ],
+      "orig": "1. An unmanned aerial vehicle comprising: a fuselage 12; left and right airfoil-shaped wings 14, 16 connected to the fuselage and configured to generate lift in forward flight; a left thrust-generating device 18 supported by the left wing; a right thrust-generating device 20 supported by the right wing; a vertical stabilizer having a top portion 26 and a bottom portion 32; a top thrust-generating device 28 mounted to the top portion; a bottom thrust-generating device 34 mounted to the bottom portion; and an onboard power source for powering the thrust-generating devices.",
+      "text": "An unmanned aerial vehicle comprising: a fuselage 12; left and right airfoil-shaped wings 14, 16 connected to the fuselage and configured to generate lift in forward flight; a left thrust-generating device 18 supported by the left wing; a right thrust-generating device 20 supported by the right wing; a vertical stabilizer having a top portion 26 and a bottom portion 32; a top thrust-generating device 28 mounted to the top portion; a bottom thrust-generating device 34 mounted to the bottom portion; and an onboard power source for powering the thrust-generating devices.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 331.0,
+            "t": 74.05939999999998,
+            "r": 566.4000020000001,
+            "b": 56.18190000000004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.6,
+            "t": 706.8594,
+            "r": 291.0000040000001,
+            "b": 688.9819,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            119,
+            244
+          ]
+        }
+      ],
+      "orig": "2. The unmanned aerial vehicle of claim 1, wherein the onboard power source comprises three batteries 38 symmetrically housed within the airframe, two of the batteries 38 being disposed within the left and right wings 14, 16 and a third battery",
+      "text": "2. The unmanned aerial vehicle of claim 1, wherein the onboard power source comprises three batteries 38 symmetrically housed within the airframe, two of the batteries 38 being disposed within the left and right wings 14, 16 and a third battery"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.6,
+            "t": 686.4594000000001,
+            "r": 291.00000400000016,
+            "b": 535.3819000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            708
+          ]
+        }
+      ],
+      "orig": "38 being disposed within the fuselage 12. 3. The unmanned aerial vehicle of claim 1, further comprising wireless power transfer (WPT) circuitry 40 configured to inductively recharge the onboard power source while the unmanned aerial vehicle is in a tail-sitting position on a recharging pad. 4. The unmanned aerial vehicle of claim 1, further comprising an autopilot module 46 configured to generate control command signals for the thrust-generating devices to adjust pitch, yaw and roll within a predetermined flight envelope. 5. The unmanned aerial vehicle of claim 1, further comprising a digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data.",
+      "text": "38 being disposed within the fuselage 12. 3. The unmanned aerial vehicle of claim 1, further comprising wireless power transfer (WPT) circuitry 40 configured to inductively recharge the onboard power source while the unmanned aerial vehicle is in a tail-sitting position on a recharging pad. 4. The unmanned aerial vehicle of claim 1, further comprising an autopilot module 46 configured to generate control command signals for the thrust-generating devices to adjust pitch, yaw and roll within a predetermined flight envelope. 5. The unmanned aerial vehicle of claim 1, further comprising a digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data.",
+      "enumerated": false,
+      "marker": ""
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "meta": {
+        "description": {
+          "created_by": "gpt-5-nano",
+          "text": "FIG. 3: Component 12 is the fuselage. It connects downward to component 38 battery.\nFIG. 3: Component 38 is the battery. It connects upward to 12 and downward to 28.\nFIG. 3: Component 28 is the top thrust device. It connects downward to 34.\nFIG. 3: Component 34 is the bottom thrust device. It connects rightward to 46 autopilot module.\nFIG. 3: Component 14 is the left wing.\nFIG. 3: Component 16 is the right wing.\nFIG. 3: Component 18 is the left thrust device.\nFIG. 3: Component 20 is the right thrust device.\nFIG. 3: Component 46 is the autopilot module."
+        }
+      },
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 17.76529884338379,
+            "t": 436.85357666015625,
+            "r": 320.4342041015625,
+            "b": 242.8631591796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 2
+    }
+  }
+}

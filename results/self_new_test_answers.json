@@ -1,0 +1,247 @@
+[
+ {
+  "id": "n01",
+  "answer": "The pins 120 are prevented from falling through the constraining plates 110 by a collar 121 on each pin that is larger than the corresponding hole 119.",
+  "citations": [
+   {
+    "doc": "US8485576B2_robotic_gripper.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n02",
+  "answer": "A digital camera 42 and a data storage device 44 onboard the fuselage 12 for recording and locally storing image data.",
+  "citations": [
+   {
+    "doc": "US20170320570A1_uav_vtol.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n03",
+  "answer": "When the first current supply means is in an abnormal state, the controller stops the current supply from the first current supply means to the first motor and supplies a current from the second current supply means to the first motor.",
+  "citations": [
+   {
+    "doc": "US5481460A_ev_controller.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n04",
+  "answer": "Inventor: George; filed on Dec. 10, 1954.",
+  "citations": [
+   {
+    "doc": "US2988237A_programmed_article_transfer.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n05",
+  "answer": "lifting, swinging and twisting motions",
+  "citations": [
+   {
+    "doc": "US2988237A_programmed_article_transfer.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n06",
+  "answer": "Rev. D is planned to add active balancing via a flyback topology, which is expected to improve pack-level capacity utilization by 2-3%.",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 3
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n07",
+  "answer": "Torque is estimated from motor current; there is no integrated torque sensor at the output flange in Rev. B (a strain-gauge-based torque sensor is planned for Rev C).",
+  "citations": [
+   {
+    "doc": "RJA-40_actuator_design_document.docx",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n08",
+  "answer": "355.2 V",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n09",
+  "answer": "2.80 V/cell",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n10",
+  "answer": "Dual-core Cortex-M7 @ 480 | MHz with M4 co-processor",
+  "citations": [
+   {
+    "doc": "Falcon-VT1_flight_controller_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n11",
+  "answer": "9 - 26 V DC",
+  "citations": [
+   {
+    "doc": "Falcon-VT1_flight_controller_design_document.pdf",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n12",
+  "answer": "101:1",
+  "citations": [
+   {
+    "doc": "RJA-40_actuator_design_document.docx",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n13",
+  "answer": "IP54",
+  "citations": [
+   {
+    "doc": "RJA-40_actuator_design_document.docx",
+    "page": 2
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n14",
+  "answer": "function control anticipator",
+  "citations": [
+   {
+    "doc": "US2988237A_programmed_article_transfer.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n15",
+  "answer": "the left wheel speed sensor.",
+  "citations": [
+   {
+    "doc": "US5481460A_ev_controller.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n16",
+  "answer": "The Contactor Driver.",
+  "citations": [
+   {
+    "doc": "EV-BMS-100_design_document.pdf",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n17",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "n18",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "n19",
+  "answer": "26",
+  "citations": [
+   {
+    "doc": "test_log.csv",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n20",
+  "answer": "RJA-2019; measured value 0.348 arcmin.",
+  "citations": [
+   {
+    "doc": "test_log.csv",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n21",
+  "answer": "908.65",
+  "citations": [
+   {
+    "doc": "bill_of_materials.xlsx",
+    "page": 1
+   }
+  ],
+  "not_found": false
+ },
+ {
+  "id": "n22",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "n23",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "n24",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ },
+ {
+  "id": "n25",
+  "answer": "not found",
+  "citations": [],
+  "not_found": true
+ }
+]
