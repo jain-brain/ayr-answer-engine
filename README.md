@@ -73,6 +73,57 @@ export OPENAI_API_KEY=sk-...
 | `make eval` | Extraction, retrieval and answer scores on the dev set → `results/` |
 | `make eval QUESTIONS=questions.json` | The same scores on another questions file in the dev set's format (`id`, `type`, `question`, `reference_answer`, `evidence`) |
 
+## Model and library choices
+
+**Model: OpenAI `gpt-5-nano`** for all four model calls: figure descriptions, the SQL router, answers, and the judge.
+- It was the cheapest model on OpenAI's pricing page. We chose the weakest, cheapest model on purpose, so the results show what the architecture does (extraction, search, SQL, the citation check) rather than what a strong model can make up for. Switching to a stronger model later is a one-line change.
+- It is configurable: `ANSWER_MODEL` (router, answers, judge) and `FIGURE_MODEL` (figures, must accept images) take any OpenAI model, and `OPENAI_BASE_URL` takes any OpenAI-compatible endpoint. Every call returns a fixed JSON shape (Pydantic structured output), so a reply that doesn't fit is rejected rather than half-parsed.
+
+**Libraries** (open source, all run locally):
+
+| Library | What it does here | Why |
+|---|---|---|
+| Docling 2.146 | Layout, reading order, tables, figure boxes | One pipeline for text PDFs, the scan and the DOCX, and every item keeps its doc, page and box. Details in [HOW_EXTRACTION_WORKS.md](HOW_EXTRACTION_WORKS.md) |
+| Tesseract 5 (pinned inside Docling) | OCR | Lowest error on the hand-typed scan: CER 0.016 / 0 (p1 / p2) vs 0.033 / 0.185 for RapidOCR |
+| LibreOffice | DOCX → PDF | A Word file has no fixed pages; the render gives the page numbers we cite |
+| pypdfium2 | Renders pages | Crops each figure for the VLM |
+| rank-bm25 | Keyword search | See below |
+| SQLite (Python built-in) + pandas / openpyxl | The CSV and XLSX as SQL tables | See below |
+| jiwer, python-docx | Evaluation | CER / WER, and reading the hand-typed gold pages |
+
+**Why BM25 + SQL for this corpus:**
+- **Units, not chunks.** Each paragraph, table row and figure piece is one unit (188 in all), with its section heading in front and its doc and page attached. A table row keeps its cells (`Peak current per ESC channel | 60 A | 10 s max`), so "the value in row X, column Y" stays answerable.
+- **BM25 over the units.** The questions name exact things: product names, part numbers, reference numerals, spec names. BM25 needs no model, and every score can be explained word by word, which is how the failures below were traced. Its weakness, needing the question's exact words, is in Known limitations, and hybrid search is in Future work.
+- **SQL for the spreadsheets.** Counting, summing and filtering 109 test runs and 25 BOM lines must be exact. Rows as text units only answer single-row lookups, and pasting whole tables into the prompt leaves the model counting 109 rows by reading, which is unreliable, especially for a small model. So the router writes one read-only SELECT, and its result becomes one more unit the answer can cite (the file, page 1). The documents are always searched as well, so if the SQL step fails, the answer still comes from the documents.
+- **Citations come from our code, not the model.** The model cites unit IDs with a quote. A citation is kept only if its quote is found in that unit (≥ 0.9 word similarity), and the doc and page come from the unit. An answer with no surviving citation becomes "not found".
+
+## Results
+
+All results in one table. The question columns are the 22 dev-set questions, scored against the audited gold pages (see the next section). Scores are the share of questions, from 0 to 1.
+
+| Stage | Metric | Factual (5) | Table (7) | Figure (4) | Structured (4) | Unanswerable (2) | All |
+|---|---|---|---|---|---|---|---|
+| Extraction | OCR error rate, CER / WER (5 hand-typed pages: the scanned patent + EV-BMS-100) | | | | | | 0.022 / 0.028 |
+| Extraction | Table cells in the right row and column (2 EV-BMS-100 tables) | | | | | | 48 / 48 |
+| Extraction | Figures found | | | | | | 9 / 9 |
+| Extraction | Figure number on the figure's pieces | | | | | | 8 / 9 |
+| Extraction | Caption linked by Docling | | | | | | 4 / 9 |
+| Extraction | Numerals read and linked in the patent figures | | | | | | 28 / 28 |
+| Retrieval | Recall@10: a gold page among the 10 units shown | 1.00 | 1.00 | 1.00 | 1.00 | | 1.00 |
+| Answers | Correct (LLM judge) | 0.80 | 0.86 | 1.00 | 0.75 | 1.00 | 0.86 (19 / 22) |
+| Answers | Numbers match (±1%) | 0.50 | 0.83 | | 0.50 | | 0.64 |
+| Answers | Citation precision: cited pages that are gold pages | 1.00 | 0.86 | 1.00 | 1.00 | | 0.95 |
+| Answers | Said "not found" (should be 1 for unanswerable, 0 elsewhere) | 0.00 | 0.00 | 0.00 | 0.25 | 1.00 | right declines 2 / 2, wrong declines 1 / 20 |
+| Answers | Figure questions cite the asked figure | | | 1.00 | | | 1.00 |
+
+Empty cells: the metric doesn't apply (e.g. no numbers in the reference, no gold page for unanswerable questions). The RJA-40 Figure 2 description came back empty in this ingest, hence 8 / 9 figure numbers. Per-question detail (answer, citations, judge verdict, trace) is in `results/dev_per_question.json`.
+
+**How answers are judged:**
+- **Free text: an LLM judge plus a manual check.** The judge (gpt-5-nano) compares our answer with the reference: correct if it states the same facts, incorrect if a fact is wrong or missing, or if only one of the two says "not found". The judge isn't reliable yet when an answer is incomplete or worded differently (e.g. the same "180.0" for q20 was marked incorrect in one run and correct in another), so we read every answer it marks incorrect. In this run: q05 and q09 left out part of the reference (the tail-sitting recharging pad; the 10 s limit), and q18 said "not found".
+- **Numbers:** every number in the reference must appear in our answer within **±1%**. Numbers inside names (`RJA-40`, `IP67`) are ignored.
+- **Citations:** precision = share of our cited pages that are gold pages.
+- **"Not found":** counted when an answer has no surviving citation.
+
 ## Dev-set gold page corrections
 
 Page-level scores (recall@k, citation precision) are reported against an **audited** copy of the dev set's evidence pages. Four questions were checked against the source pages. Two dev-set pages are wrong, and two leave out a second page that also holds the answer.
@@ -102,7 +153,24 @@ Failures found on the dev set while building the system. Each one was traced thr
 - OCR misreads on the scanned patent: "transter" for "transfer";
 - identifiers written differently: "US8,485,576" in the question vs "US 8,485,576" in the patent.
 
+## What we chose not to build
+
+- **No embeddings or vector store.** BM25 alone found a gold page for every dev question at k = 10; hybrid search is the next step (Future work).
+- **No UI or HTTP API.** A CLI with JSON output, as the brief allows.
+- **No agent loop.** Each question is at most one router call, one SQL query and one answer call, so every step can be traced and scored.
+- **No OCR by the VLM.** The VLM only describes figure crops; all page text comes from Docling + Tesseract, running locally.
+- **No experiment tracker in the package.** MLflow was used while building; the package writes a per-question trace to `results/` instead.
+- **No Docker image or Linux/Windows support yet** (macOS only, see the top).
+
 ## Future work
 
 1. **Figure descriptions with function, not just geometry.** Today the VLM mostly describes what is drawn: shapes, positions and arrows (e.g. "Left thrust device 18 is a rectangular block located below the left wing"). Asking it for what each component does would let figure units answer questions about function.
 2. **Hybrid search.** Keep BM25 for exact terms (part numbers, numerals, spec names), and for harder queries, or when BM25 leads to "not found", hand off to (or mix in) similarity search over LLM embeddings, so questions whose words differ from the text still reach the right units.
+
+## AI coding tools
+
+I built this with **Claude Code** (Anthropic's coding agent in the terminal).
+
+- **How the work was split.** I delegated the implementation to Claude Code: the notebook cells, this package, the Makefile, the eval code, test runs, and the scripts that traced a failing question through each step. That left my time for research, design and analysis: comparing options (OCR engines, five ways of reading figure numerals, BM25 settings), weighing design choices, and reading per-question traces to find which stage caused each failure. Decisions such as pinning Tesseract, describing figures with a VLM, splitting the descriptions into pieces, and reverting a BM25 change that broke other questions were made after looking at results on this corpus.
+- **Saving and resuming: a `CLAUDE.md` design log.** Claude Code reads a `CLAUDE.md` file at the start of every session. We used it as a running design log, updated as we worked: the brief condensed, verified facts about the corpus, every decision with its reasoning and who made it, experiment results, failure analyses, open questions, and a session log. The work ran over a week of sessions, and the log let each new session (or one cut short by context limits) resume exactly where the last one stopped, without redoing decisions.
+- **Step by step, checked by hand.** The engine was built one notebook cell at a time, and I reviewed each step before the next. This repo is the package version of the notebook's final state. I typed the extraction gold pages myself, independently of any tool, verified the four dev-set gold corrections against the source pages, and read every answer the judge marks incorrect.
